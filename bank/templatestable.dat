@@ -17889,7 +17889,7 @@
 <1516>
 # Poor Goodie Template variation 1
 <type         NONE 0>
-<eq           { 101500 1 101505 1 101510 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101500 1 101510 1 } 0 0 -1 SELFCONTAINED>
 <eq           loaf_of_bread 0 0 3 SELFCONTAINED>
 <eq           pitcher_of_ale 0 0 1 SELFCONTAINED>
 <eq           candle 0 0 1 SELFCONTAINED>
@@ -17897,7 +17897,7 @@
 <1517>
 # Poor Goodie Template variation 2
 <type         NONE 0>
-<eq           { 101500 1 101505 1 101510 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101500 1 101510 1 } 0 0 -1 SELFCONTAINED>
 <eq           cheese 0 0 3 SELFCONTAINED>
 <eq           wine_bottle 0 0 1 SELFCONTAINED>
 <eq           torch 0 0 1 SELFCONTAINED>
@@ -17905,7 +17905,7 @@
 <1518>
 # Poor Goodie Template variation 3
 <type         NONE 0>
-<eq           { 101500 1 101505 1 101510 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101500 1 101510 1 } 0 0 -1 SELFCONTAINED>
 <eq           loaf_bread_1 0 0 2 SELFCONTAINED>
 <eq           cheese 0 0 1 SELFCONTAINED>
 <eq           ale_bottle 0 0 2 SELFCONTAINED>
@@ -17914,7 +17914,7 @@
 <1519>
 # Poor Goodie Template variation 4
 <type         NONE 0>
-<eq           { 101500 1 101505 1 101510 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101500 1 101510 1 } 0 0 -1 SELFCONTAINED>
 <eq           cider_jug 0 0 3 SELFCONTAINED>
 <eq           loaf_bread_1 0 0 2 SELFCONTAINED>
 <eq           liquor_bottle 0 0 1 SELFCONTAINED>
@@ -17937,7 +17937,7 @@
 <1521>
 # Broke Goodie Template variation 1
 <type         NONE 0>
-<eq           { 101501 1 101506 1 101511 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101501 1 101511 1 } 0 0 -1 SELFCONTAINED>
 <eq           { random_boots 1 0 4 } 0 0 1 SELFCONTAINED>
 <eq           { random_gorget 1 0 4 } 0 0 1 SELFCONTAINED>
 <eq           { random_staff 1 0 4 } 0 0 1 SELFCONTAINED>
@@ -17947,7 +17947,7 @@
 <1522>
 # Broke Goodie Template variation 2
 <type         NONE 0>
-<eq           { 101501 1 101506 1 101511 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101501 1 101511 1 } 0 0 -1 SELFCONTAINED>
 <eq           { random_shield 1 0 4 } 0 0 1 SELFCONTAINED>
 <eq           { random_missile 1 0 4 } 0 0 1 SELFCONTAINED>
 <eq           { arrows 1 bolts 1 0 3 } 0 0 10 SELFCONTAINED>
@@ -17957,7 +17957,7 @@
 <1523>
 # Broke Goodie Template variation 3
 <type         NONE 0>
-<eq           { 101501 1 101506 1 101511 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101501 1 101511 1 } 0 0 -1 SELFCONTAINED>
 <eq           { random_arm_armor 1 0 4 } 0 0 1 SELFCONTAINED>
 <eq           { random_leg_armor 1 0 4 } 0 0 1 SELFCONTAINED>
 <eq           { random_mace 1 0 4 } 0 0 1 SELFCONTAINED>
@@ -17967,7 +17967,7 @@
 <1524>
 # Broke Goodie Template variation 4
 <type         NONE 0>
-<eq           { 101501 1 101506 1 101511 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101501 1 101511 1 } 0 0 -1 SELFCONTAINED>
 <eq           { random_head_armor 1 0 4 } 0 0 1 SELFCONTAINED>
 <eq           { random_chest_armor 1 0 4 } 0 0 1 SELFCONTAINED>
 <eq           { random_axe 1 0 4 } 0 0 1 SELFCONTAINED>
@@ -17991,7 +17991,7 @@
 <1526>
 # Goodie Template "average" quality, variation 2
 <type         NONE 0>
-<eq           { 101502 1 101507 1 101512 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101502 1 101512 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_boots MAGIC 5 1 10 0 0 1 SELFCONTAINED>
 <eq           random_gorget MAGIC 5 1 10 0 0 1 SELFCONTAINED>
 <eq           random_staff MAGIC 5 1 10 0 0 1 SELFCONTAINED>
@@ -18000,7 +18000,7 @@
 <1527>
 # Goodie Template "average" quality, variation 3
 <type         NONE 0>
-<eq           { 101502 1 101507 1 101512 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101502 1 101512 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_shield MAGIC 5 5 15 0 0 1 SELFCONTAINED>
 <eq           random_missile MAGIC 5 5 15 0 0 1 SELFCONTAINED>
 <eq           arrows 0 0 10 SELFCONTAINED>
@@ -18009,7 +18009,7 @@
 <1528>
 # Goodie Template "average" quality, variation 4
 <type         NONE 0>
-<eq           { 101502 1 101507 1 101512 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101502 1 101512 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_arm_armor MAGIC 5 1 10 0 0 1 SELFCONTAINED>
 <eq           random_leg_armor MAGIC 5 1 10 0 0 1 SELFCONTAINED>
 <eq           random_mace MAGIC 5 1 10 0 0 1 SELFCONTAINED>
@@ -18020,7 +18020,7 @@
 <1529>
 # Goodie Template "average" quality, variation 5
 <type         NONE 0>
-<eq           { 101502 1 101507 1 101512 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101502 1 101512 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_head_armor MAGIC 5 1 10 0 0 1 SELFCONTAINED>
 <eq           random_chest_armor MAGIC 5 1 10 0 0 1 SELFCONTAINED>
 <eq           random_axe MAGIC 5 1 10 0 0 1 SELFCONTAINED>
@@ -18044,7 +18044,7 @@
 <1531>
 # Goodie Template "rich" quality, variation 2
 <type         NONE 0>
-<eq           { 101503 1 101508 1 101513 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101503 1 101513 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_boots MAGIC 10 10 50 0 0 1 SELFCONTAINED>
 <eq           random_gorget MAGIC 10 10 50 0 0 1 SELFCONTAINED>
 <eq           random_staff MAGIC 10 10 50 0 0 1 SELFCONTAINED>
@@ -18054,7 +18054,7 @@
 <1532>
 # Goodie Template "rich" quality, variation 3
 <type         NONE 0>
-<eq           { 101503 1 101508 1 101513 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101503 1 101513 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_shield MAGIC 10 10 50 0 0 1 SELFCONTAINED>
 <eq           random_missile MAGIC 10 10 50 0 0 1 SELFCONTAINED>
 <eq           arrows 0 0 10 SELFCONTAINED>
@@ -18063,7 +18063,7 @@
 <1533>
 # Goodie Template "rich" quality, variation 4
 <type         NONE 0>
-<eq           { 101503 1 101508 1 101513 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101503 1 101513 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_arm_armor MAGIC 10 10 50 0 0 1 SELFCONTAINED>
 <eq           random_leg_armor MAGIC 10 10 50 0 0 1 SELFCONTAINED>
 <eq           random_mace MAGIC 10 10 50 0 0 1 SELFCONTAINED>
@@ -18072,7 +18072,7 @@
 <1534>
 # Goodie Template "rich" quality, variation 5
 <type         NONE 0>
-<eq           { 101503 1 101508 1 101513 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101503 1 101513 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_head_armor MAGIC 10 10 50 0 0 1 SELFCONTAINED>
 <eq           random_chest_armor MAGIC 10 10 50 0 0 1 SELFCONTAINED>
 <eq           random_axe MAGIC 10 10 50 0 0 1 SELFCONTAINED>
@@ -18095,7 +18095,7 @@
 <1536>
 # Goodie Template "filthy rich" quality, variation 2
 <type         NONE 0>
-<eq           { 101504 1 101509 1 101514 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101504 1 101514 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_boots MAGIC 25 10 50 0 0 1 SELFCONTAINED>
 <eq           random_gorget MAGIC 25 10 50 0 0 1 SELFCONTAINED>
 <eq           random_staff MAGIC 25 10 50 0 0 1 SELFCONTAINED>
@@ -18104,7 +18104,7 @@
 <1537>
 # Goodie Template "filthy rich" quality, variation 3
 <type         NONE 0>
-<eq           { 101504 1 101509 1 101514 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101504 1 101514 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_shield MAGIC 25 20 100 0 0 1 SELFCONTAINED>
 <eq           random_missile MAGIC 25 20 100 0 0 1 SELFCONTAINED>
 <eq           arrows 0 0 10 SELFCONTAINED>
@@ -18113,7 +18113,7 @@
 <1538>
 # Goodie Template "filthy rich" quality, variation 4
 <type         NONE 0>
-<eq           { 101504 1 101509 1 101514 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101504 1 101514 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_arm_armor MAGIC 25 20 105 0 0 1 SELFCONTAINED>
 <eq           random_leg_armor MAGIC 25 20 105 0 0 1 SELFCONTAINED>
 <eq           random_mace MAGIC 25 20 105 0 0 1 SELFCONTAINED>
@@ -18123,7 +18123,7 @@
 <1539>
 # Goodie Template "filthy rich" quality, variation 5
 <type         NONE 0>
-<eq           { 101504 1 101509 1 101514 1 } 0 0 -1 SELFCONTAINED>
+<eq           { 101504 1 101514 1 } 0 0 -1 SELFCONTAINED>
 <eq           random_head_armor MAGIC 25 30 105 0 0 1 SELFCONTAINED>
 <eq           random_chest_armor MAGIC 25 30 105 0 0 1 SELFCONTAINED>
 <eq           random_axe MAGIC 25 30 105 0 0 1 SELFCONTAINED>
