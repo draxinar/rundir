@@ -31,20 +31,20 @@ version 64207
    14     0     0     0     0     0     0  -2006526367 NONE 0 0 0 0 0
   279  3637  2648    15    37    -3    17   2147483647 DOCKS_OCLLO_2 17 0 0 0 0 the docks in Ocllo
    15     0     0     0     0     0     0  -2006529211 NONE 0 0 0 0 0
-   16  3590  2460   117   225    -5   100   2147483647 Justice_Ocllo 17 0 0 0 0 Ocllo City
+   16  3590  2460   117   225    -5   100   2147483647 JUSTICE_OCLLO 17 0 0 0 0 Ocllo City
   280  3648  2656    25    30    -3    17   2147483647 DOCKS_OCLLO_3 17 0 0 0 0 the docks in Ocllo
-   17  3695  2558    65   153    -5   100   2147483647 Justice_Ocllo 17 0 0 0 0 Ocllo City
+   17  3695  2558    65   153    -5   100   2147483647 JUSTICE_OCLLO 17 0 0 0 0 Ocllo City
   281  3703  2583     9     9     0    20   2147483647 FARM_OCLLO_1 17 0 0 0 0 a farm in Ocllo
   282  3735  2560     9     8     0    20   2147483647 FARM_OCLLO_2 17 0 0 0 0 a farm in Ocllo
    18     0     0     0     0     0     0  -1995872855 NONE 0 0 0 0 0
-   19  3687  2504     9    16     0    15   2147483647 bank_ocllo_1 17 0 0 0 0 the Bank of Ocllo
+   19  3687  2504     9    16     0    15   2147483647 BANK_OCLLO_1 17 0 0 0 0 the Bank of Ocllo
   283     0     0     0     0     0     0  -2006429133 NONE 0 0 0 0 0
   284  3703  2647    17     9     0    20   2147483647 BUTCHER_OCLLO 17 0 0 0 0 the Sweet Meat in Ocllo
    20     0     0     0     0     0     0  -2006487828 NONE 0 0 0 0 0
   285  3735  2679     9    17     0    20   2147483647 FARM_OCLLO_4 17 0 0 0 0 a farm in Ocllo
-   21  3596  2460   111   220   -20   255   1926723842 housing_no_ocllo_1 17 0 0 0 0 Ocllo City
+   21  3596  2460   111   220   -20   255   1926723842 HOUSING_NO_OCLLO_1 17 0 0 0 0 Ocllo City
   286  3740  2679    12     9     0    20   2147483647 FARM_OCLLO_5 17 0 0 0 0 a farm in Ocllo
-   22  3690  2556    72   172   -20   255   1926720454 housing_no_ocllo_2 17 0 0 0 0 Ocllo City
+   22  3690  2556    72   172   -20   255   1926720454 HOUSING_NO_OCLLO_2 17 0 0 0 0 Ocllo City
   287  3708  2568     3     7     0     1   2147483647 CARROT_OCLLO_1 17 0 0 0 0 a carrot field in Ocllo
    23  3338  2390   244   329  -128   128  -1993564288 ZOO_FOREST 0 0 0 0 0
   288  3718  2568     1     4     0     1   2147483647 CARROT_OCLLO_2 17 0 0 0 0 a carrot field in Ocllo
