@@ -3055,7 +3055,6 @@
 # Rancher
 <type         SHOPKEEPER 400>
 <frequency    100>
-<region       FARM>
 <region       { FARM 0 CITY 0 } >
 <regionlimit  { FARM 1 CITY 1 } >
 <job          rancher>
@@ -7192,7 +7191,7 @@
 # horse         Difficulty 2
 <type           NORMAL HORSES>
 <frequency      100>
-<region         { ZOO_PLAINS HORSESMALL 0 HORSEMEDIUM 0 HORSELARGE 0 FORESTNEARTOWN 0 FORESTNOTNEARTOWN 0 HORSE 0 NEWBIE 0 WINDFOREST 0 } >
+<region         { ZOO_PLAINS 0 HORSESMALL 0 HORSEMEDIUM 0 HORSELARGE 0 FORESTNEARTOWN 0 FORESTNOTNEARTOWN 0 HORSE 0 NEWBIE 0 WINDFOREST 0 } >
 <regionlimit    { ZOO_PLAINS 1 HORSESMALL 15 HORSEMEDIUM 25 HORSELARGE 35 FORESTNEARTOWN 25 FORESTNOTNEARTOWN 45 HORSE 1 NEWBIE 10 WINDFOREST 8 } >
 <sex            OTHER>
 <name           515>
@@ -7856,7 +7855,7 @@
 <type           NORMAL GHOSTS>
 <frequency      100>
 <region         { RUINS 0 CEMETERYEASY 0 CEMETERYHARD 0 GHOSTSMALL 0 GHOSTMEDIUM 0 GHOSTLARGE 0 DARKERFOREST 0 FORESTNOTNEARTOWN 0 GHOST 0 CEMETERY 0 } >
-<regionlimit    { RUINS 2 CEMETERYEASY 1 CEMETERYHARD 5 GHOSTSMALL 4 GHOSTMEDIUM 8 GHOSTLARGE 16 DARKERFOREST 18 FORESNOTNEARTOWN 10 GHOST 1 CEMETERY 4 } >
+<regionlimit    { RUINS 2 CEMETERYEASY 1 CEMETERYHARD 5 GHOSTSMALL 4 GHOSTMEDIUM 8 GHOSTLARGE 16 DARKERFOREST 18 FORESTNOTNEARTOWN 10 GHOST 1 CEMETERY 4 } >
 <sex            OTHER>
 <name           530>
 <corpsename     ghoulish>
@@ -7975,7 +7974,7 @@
 <type           NORMAL HEADLESS_ONES>
 <frequency      100>
 <region         { DESPISE 0 MOUNTAIN 0 ZOO_DUNGN 0 HEADLESSSMALL 0 HEADLESSMEDIUM 0 HEADLESSLARGE 0 DARKERFOREST 0 FORESTNOTNEARTOWN 0 HEADLESS 0 } >
-<regionlimit    { DESPISE 6 MOUNTAIN 8 ZOO_DUNGN 1 HEADLESSMALL 5 HEADLESSMEDIUM 14 HEADLESSLARGE 20 DARKERFOREST 10 FORESTNOTNEARTOWN 5 HEADLESS 1 } >
+<regionlimit    { DESPISE 6 MOUNTAIN 8 ZOO_DUNGN 1 HEADLESSSMALL 5 HEADLESSMEDIUM 14 HEADLESSLARGE 20 DARKERFOREST 10 FORESTNOTNEARTOWN 5 HEADLESS 1 } >
 <sex            OTHER>
 <name           533>
 <corpsename     headless>
@@ -8246,7 +8245,7 @@
 <type           NORMAL REAPERS>
 <frequency      100>
 <region         { ZOO_FOREST 0 REAPERSMALL 0 REAPERMEDIUM 0 REAPERLARGE 0 DARKFOREST 0 DARKERFOREST 0 } >
-<regionlimit    { ZOO_FOREST 1 REAPERSMALL 3 REAPERMEDIUM 6 REAPERLARGER 9 DARKFOREST 6 DARKERFOREST 9 } >
+<regionlimit    { ZOO_FOREST 1 REAPERSMALL 3 REAPERMEDIUM 6 REAPERLARGE 9 DARKFOREST 6 DARKERFOREST 9 } >
 <sex            OTHER>
 <name           539>
 <corpsename     reaper>
@@ -9214,7 +9213,7 @@
 # rat-man       Difficulty 5
 <type           NORMAL RATMEN>
 <frequency      100>
-<region         { SWAMP 0 WRONG 0 RATMANSMALL 0 RATMANMEDIUM 0 RATMANMEDIUM 0 RATMAN 0 FORESTNOTNEARTOWN 0 DARKFOREST 0 DARKERFOREST 0 } >
+<region         { SWAMP 0 WRONG 0 RATMANSMALL 0 RATMANMEDIUM 0 RATMANLARGE 0 RATMAN 0 FORESTNOTNEARTOWN 0 DARKFOREST 0 DARKERFOREST 0 } >
 <regionlimit    { SWAMP 10 WRONG 12 RATMANSMALL 4 RATMANMEDIUM 8 RATMANLARGE 12 RATMAN 1 FORESTNOTNEARTOWN 8 DARKFOREST 15 DARKERFOREST 20 } >
 <sex            OTHER>
 <name           561>
@@ -9301,7 +9300,7 @@
 <type           NORMAL WALRUSES>
 <frequency      100>
 <region         { ARCTIC 0 ZOO_ARCTIC 0 WALRUSSMALL 0 WALRUSMEDIUM 0 WALRUSLARGE 0 } >
-<regionlimit    { ARTIC 35 ZOO_ARCTIC 1 WALRUSSMALL 5 WALRUSMEDIUM 15 WALRUSLARGE 25 } >
+<regionlimit    { ARCTIC 35 ZOO_ARCTIC 1 WALRUSSMALL 5 WALRUSMEDIUM 15 WALRUSLARGE 25 } >
 <sex            OTHER>
 <name           564>
 <corpsename     walrus>
@@ -9767,7 +9766,7 @@
 # drakes        Difficulty 7
 <type           NORMAL DRAKES>
 <frequency      100>
-<region         { DRAGON 0 DRAKE 0 DARKESTFOREST } >
+<region         { DRAGON 0 DRAKE 0 DARKESTFOREST 0 } >
 <regionlimit    { DRAGON 2 DRAKE 2 DARKESTFOREST 5 } >
 <sex            OTHER>
 <name           579>
@@ -18588,7 +18587,7 @@
 <eq           4077 0 0 -1 AT  3  1 66 poi_cleanup>
 <eq           4078 0 0 -1 AT  3  0 66 poi_cleanup>
 <eq           4075 0 0 -1 AT  3 -1 66 poi_cleanup>
-<eq           { 101584 1 101584 1 } 0 0 -1 AT 2 0 66 poi_cleanup>
+<eq           { 101584 1 101585 1 } 0 0 -1 AT 2 0 66 poi_cleanup>
 <eq           100076 0 0 -1 AT 2 3 67 poi_cleanup>
 <eq           100076 0 0 -1 AT 3 2 67 poi_cleanup>
 <resource     food       1 1 MEAT>
@@ -20876,18 +20875,21 @@
 # magic artifact generator
 <type         none 0>
 <region       { RICH 1 FILTHYRICH 1 } >
+<regionlimit  { RICH 1 FILTHYRICH 1 } >
 <eq           scroll magic 100 1 300 0 0 1 at 0 0 0>
 <@@@ END @@@>
 <1998>
 # magic artifact generator
 <type         none 0>
 <region       { RICH 1 FILTHYRICH 1 } >
+<regionlimit  { RICH 1 FILTHYRICH 1 } >
 <eq           all magic 100 1 300 0 0 1 at 0 0 0>
 <@@@ END @@@>
 <1999>
 # magic artifact crate generator
 <type         ITEM random_crate>
 <region       { RICH 1 FILTHYRICH 1 } >
+<regionlimit  { RICH 1 FILTHYRICH 1 } >
 <eq           all magic 100 1 200 0 0 1 selfcontained>
 <@@@ END @@@>
 <2000>

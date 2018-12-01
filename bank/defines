@@ -770,7 +770,6 @@ ALE_BOTTLE             2463
 WINE_BOTTLE            2503
 LIQUOR_BOTTLE          2459
 CIDER_JUG              2504
-MILK_PITCHER           2544
 DATES                  5927
 PEACH                  5932
 PEAR                   5933
@@ -811,7 +810,6 @@ ARMOIR_4               2639
 BENCH_1                2860
 BENCH_2                2861
 CHAIR_1                2906
-CHAIR_2                2907
 CHAIR_2                2907
 CHAIR_3                2908
 CHAIR_4                2909
