@@ -8848,3 +8848,161 @@ sword
 "I can make an enchanted sword from this, but I still need a hammer."
 Q6AA
 Q6AB
+"*i wish to lock this down*"
+"Lock what down?"
+"cmdSpeaker"
+"cmdAction"
+"*i wish to release this*"
+"Choose the item you wish to release"
+"*i wish to secure this*"
+"Choose the item you wish to secure"
+"*i wish to unsecure this*"
+"Choose the item you wish to unsecure"
+"*i ban thee*"
+"Target the individual to ban from this house."
+"*remove thyself*"
+"Target the individual to eject from this house."
+action
+"You must be in your house to do this."
+"This is already locked down!"
+"You cannot lock that down!"
+"Locked down!"
+"(no longer locked down)"
+"securedBy"
+"(no longer secure)"
+"This isn't locked down..."
+"This is already secure!"
+"Secure!"
+"This isn't secure..."
+"You cannot eject that from the house!"
+banned
+"bannedPlayers"
+"This person is already banned!"
+msg
+" has been banned from this house."
+"You have been banned from this house."
+banLoc
+" has been ejected from this house."
+"You have been ejected from this house. If you persist in entering, you may be banned from the house."
+"That is locked down."
+"*cross*"
+keyword
+strContains
+speakerLoc
+myLoc
+dx
+dy
+trap_wall_face
+sawtrap
+spiketrap
+"meditation"
+Already
+meditating
+"meditating"
+"You are busy doing something else and cannot focus."
+Hands
+check
+:
+weapons
+shields
+block
+type
+OK
+rHand
+"Your hands must be free to cast spells or meditate."
+lHand
+Mana
+already
+full
+"You are at peace."
+Skill
+via
+SkillCheck_DirectUse
+binary
+path
+"You cannot focus your concentration."
+Enter
+trance
+no
+timeout
+persists
+until
+broken
+"You enter a meditative trance."
+"meditation_user"
+"breakMeditation"
+"You stop meditating."
+"manaFull"
+"gotHit"
+"stealthsk"
+Must
+be
+hidden
+"You must hide first"
+Hiding
+.
+"You are not hidden well enough.  Become better at hiding."
+Mounted
+cannot
+stealth
+"You fail in your attempt to move unnoticed."
+Success
+grant
+steps
+maxSteps
+"stealthSteps"
+"stealth_user"
+"You begin to move quietly."
+"stealthStep"
+"stealthBreak"
+"MEDITATION TEST"
+"AFTER RHAND"
+"DBG1"
+"DBG2"
+"DBG3"
+"DBG4"
+"DBG5"
+"DBG6"
+"RHAND NOT NULL"
+"RHAND NULL"
+"USESKILL ENTRY"
+"AFTER CALLBACK"
+"RHAND OK"
+"LHAND NOT NULL"
+"SHIELD NOT NULL"
+"AFTER SHIELD CHECK"
+"AFTER RHAND CHECK"
+isArmed
+"Your hands must be free to meditate."
+"fillArea"
+contents
+"filled"
+afterContents
+"decayvisits"
+"removetrap"
+"What do you want to disarm?"
+"That doesn't appear to be trapped."
+"You carefully disarm the trap."
+"You fail to disarm the trap."
+"You set off the trap!"
+"Which trap will you attempt to disarm?"
+"You successfully render the trap harmless."
+"You fail to disarm the trap, but you don't set it off."
+"stealth"
+giveToUser
+label
+bp
+harvestResource
+resName
+dropBodyId
+q
+drop
+any
+"You harvest some logs"
+"You harvest some meat"
+"You harvest some leather"
+"You harvest some fur"
+"You harvest some feathers"
+"You harvest some wool"
+"You harvest some fish"
+"There is nothing useful here to harvest."

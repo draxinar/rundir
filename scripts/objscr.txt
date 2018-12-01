@@ -787,10 +787,21 @@ Torches:
 7192 oil flask
 
 Traps:
+4341 stone face trap
+4348 stone face trap
 4351 fire trap
 4352 fire trap
+4355 saw trap
+4360 spike trap
+4367 stone face trap
+4374 saw trap
+4379 spike trap
 4386 trigger
 4389 exploding mushroom
+4506 spike trap
+4512 spike trap
+4524 saw trap
+4529 saw trap
 
 triggers
 4236 lever
