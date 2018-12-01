@@ -6657,7 +6657,7 @@
 <mana           0>
 <stamina        1d20+55>
 <sk             skill_melee          1d200+400>
-<sk				      skill_weapon_hand    1d200+400>
+<sk             skill_weapon_hand    1d200+400>
 <sk             skill_battle_defense 1d200+250>
 <sk             skill_magic_defense  1d200+200>
 <naturalwc      2d6>
@@ -6824,7 +6824,7 @@
 <mana           0>
 <stamina        15d3+25>
 <sk             skill_melee          1d90+90>
-<sk				      skill_weapon_hand    1d100+90>
+<sk             skill_weapon_hand    1d100+90>
 <sk             skill_magic_defense  1d150+150>
 <sk             skill_battle_defense 1d225+225>
 <naturalwc      1d1>
@@ -6865,7 +6865,7 @@
 <mana           0>
 <stamina        15d3+15>
 <sk             skill_melee          1d50+50>
-<sk				      skill_weapon_hand    1d50+50>
+<sk             skill_weapon_hand    1d50+50>
 <sk             skill_magic_defense  1d50+40>
 <sk             skill_battle_defense 1d100+150>
 <naturalwc      1d1>
@@ -6952,7 +6952,7 @@
 <stamina        25d3+25>
 <movetype       MT_FLYING>
 <sk             skill_melee          1d85+85>
-<sk				      skill_weapon_hand    1d85+85>
+<sk             skill_weapon_hand    1d85+85>
 <sk             skill_magic_defense  1d50+50>
 <sk             skill_battle_defense 1d250+101>
 <naturalwc      1d1>
@@ -6997,7 +6997,7 @@
 <mana           0>
 <stamina        6d3+35>
 <sk             skill_melee          2d60+190>
-<sk				      skill_weapon_hand    2d60+260>
+<sk             skill_weapon_hand    2d60+260>
 <sk             skill_magic_defense  2d60+150>
 <sk             skill_battle_defense 2d60+225>
 <naturalwc      1d8+3>
@@ -7063,9 +7063,9 @@
 <corpsename     eagle>
 <alignment      NEUTRAL>
 <hue            no_colors>
-<objvar		int flying 1>
-<objvar		int predator 1>
-<objvar		int pack 1>
+<objvar         int flying 1>
+<objvar         int predator 1>
+<objvar         int pack 1>
 <objvar         int petCanTame   35>
 <objvar         int petAckSfx    animals_eagle1>
 <objvar         int petRefuseSfx animals_eagle4>
@@ -7083,7 +7083,7 @@
 <stamina        25d3+35>
 <movetype       MT_FLYING>
 <sk             skill_melee          1d190+180>
-<sk				      skill_weapon_hand    1d100+200>
+<sk             skill_weapon_hand    1d100+200>
 <sk             skill_magic_defense  3d50+150>
 <sk             skill_battle_defense 1d150+250>
 <naturalwc      2d4+2>
@@ -7126,7 +7126,7 @@
 <mana           0>
 <stamina        5d3+35>
 <sk             skill_melee          2d50+190>
-<sk			       	skill_weapon_hand    1d100+200>
+<sk             skill_weapon_hand    1d100+200>
 <sk             skill_magic_defense  2d50+150>
 <sk             skill_battle_defense 2d60+250>
 <naturalwc      1d3+2>
@@ -7261,7 +7261,7 @@
 <mana           0>
 <stamina        6d3+45>
 <sk             skill_melee          3d60+210>
-<sk				      skill_weapon_hand    3d60+210>
+<sk             skill_weapon_hand    3d60+210>
 <sk             skill_magic_defense  3d60+170>
 <sk             skill_battle_defense 3d60+145>
 <naturalwc      1d4+2>
@@ -7303,7 +7303,7 @@
 <mana           0>
 <stamina        1d20+65>
 <sk             skill_melee          1d150+450>
-<sk				      skill_weapon_hand    1d150+450>
+<sk             skill_weapon_hand    1d150+450>
 <sk             skill_magic_defense  1d150+150>
 <sk             skill_battle_defense 1d100+550>
 <naturalwc      2d6>
@@ -7431,7 +7431,7 @@
 <mana           0>
 <stamina        15d3+25>
 <sk             skill_melee          2d40+90>
-<sk				skill_weapon_hand   2d40+90>
+<sk             skill_weapon_hand    2d40+90>
 <sk             skill_magic_defense  1d50+50>
 <sk             skill_battle_defense 1d100+150>
 <naturalwc      1d4>
@@ -7475,7 +7475,7 @@
 <stamina        3d10+55>
 <sk             skill_melee          1d100+600>
 <sk             skill_magic_defense  1d150+600>
-<sk				      skill_weapon_hand    1d100+600>
+<sk             skill_weapon_hand    1d100+600>
 <sk             skill_battle_defense 1d100+650>
 <naturalwc      2d6+3>
 <naturalac      15>
@@ -7525,7 +7525,7 @@
 <eq             { rich_backpack 3 filthyrich_backpack 1 } 0 0 1>
 <eq             thigh_boots 0 0 1 SELFCONTAINED>
 <eq             { random_jewel 1 0 1 } 0 0 1 SELFCONTAINED>
-<friends	{ 538 0 602 0 603 0 542 0 }>
+<friends        { 538 0 602 0 603 0 542 0 }>
 <resource       food        15  3    MEAT>
 <resource       shelter    576  1    CAVES>
 <resource       shelter    576  1    DUNGEONS>
@@ -7558,7 +7558,7 @@
 <mana           0>
 <stamina        25d3+65>
 <sk             skill_melee          2d50+190>
-<sk				      skill_weapon_hand    2d50+190>
+<sk             skill_weapon_hand    2d50+190>
 <sk             skill_magic_defense  1d50+150>
 <sk             skill_battle_defense 1d100+650>
 <naturalwc      1d4+2>
@@ -7695,7 +7695,7 @@
 <mana           0>
 <stamina        1d20+55>
 <sk             skill_melee          1d175+675>
-<sk			       	skill_weapon_hand    1d175+400>
+<sk             skill_weapon_hand    1d175+400>
 <sk             skill_magic_defense  1d75+175>
 <sk             skill_battle_defense 1d125+425>
 <naturalwc      1d6+3>
@@ -7832,7 +7832,7 @@
 <sk             skill_melee          1d200+500>
 <sk             skill_magic_defense  1d150+700>
 <sk             skill_battle_defense 1d100+350>
-<sk             skill_magic	         1d150+700>
+<sk             skill_magic          1d150+700>
 <sk             skill_weapon_hand    1d400+400>
 <naturalwc      3d6>
 <naturalac      16>
@@ -7914,7 +7914,7 @@
 <mana           0>
 <stamina        1d20+45>
 <sk             skill_melee          3d50+290>
-<sk				      skill_weapon_hand    3d50+290>
+<sk             skill_weapon_hand    3d50+290>
 <sk             skill_magic_defense  1d50+250>
 <sk             skill_battle_defense 1d100+450>
 <naturalwc      2d4+1>
@@ -7955,7 +7955,7 @@
 <mana           1d25+35>
 <stamina        1d20+75>
 <sk             skill_melee          1d150+350>
-<sk				      skill_weapon_hand    1d150+500>
+<sk             skill_weapon_hand    1d150+500>
 <sk             skill_magic_defense  1d150+250>
 <sk             skill_battle_defense 1d100+350>
 <naturalwc      2d7+1>
@@ -7996,7 +7996,7 @@
 <mana           1d15+15>
 <stamina        1d20+35>
 <sk             skill_melee          1d150+250>
-<sk				      skill_weapon_hand    1d150+250>
+<sk             skill_weapon_hand    1d150+250>
 <sk             skill_magic_defense  1d50+150>
 <sk             skill_battle_defense 1d100+350>
 <naturalwc      3d4>
@@ -8093,7 +8093,7 @@
 <sk             skill_melee          1d250+550>
 <sk             skill_magic_defense  1d250+350>
 <sk             skill_battle_defense 1d200+550>
-<sk				      skill_weapon_hand    1d200+500>
+<sk             skill_weapon_hand    1d200+500>
 <eq             random_coin_purse 0 0 1>
 <eq             average_gold_pile 0 0 1 SELF_CONTAINED>
 <naturalwc      3d3>
@@ -8137,7 +8137,7 @@
 <sk             skill_melee          1d150+350>
 <sk             skill_magic_defense  1d150+150>
 <sk             skill_battle_defense 1d100+500>
-<sk				      skill_weapon_hand    1d150+200>
+<sk             skill_weapon_hand    1d150+200>
 <naturalwc      3d3>
 <naturalac      10>
 <resource       food         9  3    MEAT>
@@ -8180,7 +8180,7 @@
 <sk             skill_melee          1d100+600>
 <sk             skill_magic_defense  1d150+450>
 <sk             skill_battle_defense 1d100+450>
-<sk				      skill_weapon_hand    1d100+700>
+<sk             skill_weapon_hand    1d100+700>
 <eq             { rich_backpack 3 filthyrich_backpack 1 } 0 0 1>
 <eq             club 0 0 1>
 <naturalac      5d3>
@@ -8231,7 +8231,7 @@
 <eq             random_coin_purse 0 0 1>
 <eq             thigh_boots 0 0 1>
 <eq             average_gold_pile 0 0 1 SELFCONTAINED>
-<friends	{ 522 0 542 0 602 0 603 0 }>
+<friends        { 522 0 542 0 602 0 603 0 }>
 <resource       food        15  3    MEAT>
 <resource       shelter     64  1    ORCCAMP>
 <resource       shelter    576  1    CAVES>
@@ -8271,7 +8271,7 @@
 <sk             skill_magic_defense  1d150+350>
 <sk             skill_battle_defense 1d100+550>
 <sk             skill_magic          1d100+400>
-<sk				      skill_weapon_hand    1d100+500>
+<sk             skill_weapon_hand    1d100+500>
 <eq             log 0 0 10 SELFCONTAINED>
 <naturalwc      5d3>
 <naturalac      16>
@@ -8394,14 +8394,14 @@
 <naturalac      20>
 <eq             { rich_backpack 3 filthyrich_backpack 1 } 0 0 1>
 <eq             { rich_gold_pile 3 filthyrich_gold_pile 1 } 0 0 1 SELFCONTAINED>
-<friends	522 538 602 603>
+<friends        522 538 602 603>
 <resource       food        15  3    MEAT>
 <resource       shelter    576  1    FOREST>
 <resource       shelter    576  1    MOUNTAINS>
 <resource       production  10  0    CARNIVOREMEAT>
 <resource       desire       1 -3    DANGER>
 <resource       desire       1 -3    HOUSES>
-<resource	desire	     5  1    SELF>
+<resource       desire      5  1    SELF>
 <@@@ END @@@>
 <543>
 # wisp          Difficulty 8
@@ -8431,7 +8431,7 @@
 <sk             skill_melee          800>
 <sk             skill_magic_defense  800>
 <sk             skill_battle_defense 800>
-<sk             skill_magic	         800>
+<sk             skill_magic          800>
 <sk             skill_weapon_hand    800>
 <eq             litesrc 0 0 1>
 <naturalwc      5d2+10>
@@ -8475,7 +8475,7 @@
 <sk             skill_melee          1d150+350>
 <sk             skill_magic_defense  1d250+150>
 <sk             skill_battle_defense 1d100+200>
-<sk				      skill_weapon_hand    1d150+350>
+<sk             skill_weapon_hand    1d150+350>
 <naturalwc      2d4>
 <naturalac      9>
 <eq             undead_backpack 0 0 1>
@@ -8518,7 +8518,7 @@
 <sk             skill_melee          1d25+975>
 <sk             skill_magic_defense  1d10+990>
 <sk             skill_battle_defense 1d400+550>
-<sk				      skill_weapon_hand    1d25+900>
+<sk             skill_weapon_hand    1d25+900>
 <naturalwc      4d6+5>
 <naturalac      30>
 <eq             { rich_backpack 3 filthyrich_backpack 1 } 0 0 1 SELFCONTAINED>
@@ -8576,7 +8576,7 @@
 <sk             skill_melee          1d300+700>
 <sk             skill_magic_defense  1d150+450>
 <sk             skill_battle_defense 1d150+700>
-<sk				      skill_weapon_hand    1d150+500>
+<sk             skill_weapon_hand    1d150+500>
 <naturalwc      3d4+3>
 <naturalac      12>
 <resource       food         6  1    FISH>
@@ -8619,7 +8619,7 @@
 <sk             skill_melee          1d300+700>
 <sk             skill_magic_defense  1d150+450>
 <sk             skill_battle_defense 1d150+700>
-<sk				      skill_weapon_hand    1d300+600>
+<sk             skill_weapon_hand    1d300+600>
 <naturalwc      3d4+2>
 <naturalac      9>
 <resource       food         6  1    FISH>
@@ -8660,7 +8660,7 @@
 <sk             skill_melee          3d50+290>
 <sk             skill_magic_defense  1d50+250>
 <sk             skill_battle_defense 1d100+450>
-<sk			       	skill_weapon_hand    3d50+290>
+<sk             skill_weapon_hand    3d50+290>
 <naturalwc      1d5+2>
 <naturalac      8>
 <resource       food       576  64    GRASS>
@@ -8713,7 +8713,7 @@
 <sk           skill_evaluate       25d10+525>
 <sk           skill_magic          1d150+850>
 <sk           skill_inscribe       1d150+750>
-<sk	    	    skill_weapon_hand    2d200+200>
+<sk           skill_weapon_hand    2d200+200>
 <immunities   magic>
 <naturalwc    3d4>
 <naturalac    8>
@@ -8841,7 +8841,7 @@
 <corpsename     "air elemental">
 <alignment      EVIL>
 <notoriety      -125>
-<objvar	        int spellCastersLevel 2d3+1>
+<objvar         int spellCastersLevel 2d3+1>
 <script         spellai>
 <script         monster>
 <sfxnotice      elementl_airelem1>
@@ -8939,7 +8939,7 @@
 <sk             skill_magic_defense  1d150+600>
 <sk             skill_battle_defense 1d100+550>
 <sk             skill_magic          1d150+600>
-<sk				      skill_weapon_hand    1d200+700>
+<sk             skill_weapon_hand    1d200+700>
 <naturalwc      4d3>
 <naturalac      25>
 <eq             { rich_backpack 3 filthyrich_backpack 1 } 0 0 1>
@@ -8977,7 +8977,7 @@
 <sk             skill_melee          1d300+700>
 <sk             skill_magic_defense  1d150+500>
 <sk             skill_battle_defense 1d150+750>
-<sk				      skill_weapon_hand    1d300+600>
+<sk             skill_weapon_hand    1d300+600>
 <naturalwc      3d3>
 <naturalac      14>
 <eq             random_coin_purse 0 0 1>
@@ -9105,7 +9105,7 @@
 <sk             skill_melee          1d50+50>
 <sk             skill_magic_defense  1d90+50>
 <sk             skill_battle_defense 1d130+250>
-<sk				      skill_weapon_hand    1d50+50>
+<sk             skill_weapon_hand    1d50+50>
 <naturalwc      1d2>
 <naturalac      2d5>
 <resource       food         5  1    MEAT>
@@ -9153,7 +9153,7 @@
 <sk             skill_magic_defense  1d100+700>
 <sk             skill_battle_defense 1d100+650>
 <sk             skill_magic          1d100+700>
-<sk				      skill_weapon_hand    1d200+600>
+<sk             skill_weapon_hand    1d200+600>
 <naturalac      3d6>
 <naturalwc      30>
 <eq           { rich_backpack 1 filthyrich_backpack 3 } 0 0 1>
@@ -9198,7 +9198,7 @@
 <sk             skill_magic_defense  1d150+500>
 <sk             skill_battle_defense 1d100+550>
 <sk             skill_magic          1d150+500>
-<sk			        skill_weapon_hand    1d200+500>
+<sk             skill_weapon_hand    1d200+500>
 <naturalwc      3d4>
 <naturalac      19>
 <eq             { rich_backpack 1 filthyrich_backpack 1 } 0 0 1>
@@ -9240,7 +9240,7 @@
 <sk             skill_melee          1d250+500>
 <sk             skill_magic_defense  1d250+350>
 <sk             skill_battle_defense 1d200+500>
-<sk				      skill_weapon_hand    1d250+500>
+<sk             skill_weapon_hand    1d250+500>
 <naturalwc      3d2>
 <naturalac      14>
 <eq             random_coin_purse 0 0 1>
@@ -9534,7 +9534,7 @@
 <sk             skill_melee          2d40+90>
 <sk             skill_magic_defense  1d50+50>
 <sk             skill_battle_defense 1d100+250>
-<sk				      skill_weapon_hand    2d40+90>
+<sk             skill_weapon_hand    2d40+90>
 <naturalwc      1>
 <naturalac      1>
 <resistances    slashing>
@@ -9584,7 +9584,7 @@
 <sk             skill_melee          2d40+90>
 <sk             skill_magic_defense  1d50+50>
 <sk             skill_battle_defense 1d100+250>
-<sk				      skill_weapon_hand    2d40+90>
+<sk             skill_weapon_hand    2d40+90>
 <naturalwc      1>
 <naturalac      1>
 <resistances    slashing>
@@ -9633,7 +9633,7 @@
 <sk             skill_melee          1d50+50>
 <sk             skill_magic_defense  1d90+50>
 <sk             skill_battle_defense 1d130+250>
-<sk				      skill_weapon_hand    1d50+50>
+<sk             skill_weapon_hand    1d50+50>
 <naturalwc      1d2>
 <naturalac      4>
 <resistances    slashing>
@@ -9751,7 +9751,7 @@
 <sk             skill_melee          1d50+650>
 <sk             skill_magic_defense  1d150+250>
 <sk             skill_battle_defense 1d150+450>
-<sk	        skill_weapon_hand    1d200+600>
+<sk             skill_weapon_hand    1d200+600>
 <naturalwc      2d8+3>
 <naturalac      16>
 <resource       food         6  3    MEAT>
@@ -9795,7 +9795,7 @@
 <sk             skill_melee          1d250+650>
 <sk             skill_magic_defense  1d150+650>
 <sk             skill_battle_defense 1d150+650>
-<sk				      skill_weapon_hand    1d150+650>
+<sk             skill_weapon_hand    1d150+650>
 <naturalwc      4d6>
 <naturalac      28>
 <eq             { rich_backpack 3 filthyrich_backpack 1 } 0 0 1 SELFCONTAINED>
@@ -9847,7 +9847,7 @@
 <sk             skill_melee          3d50+190>
 <sk             skill_magic_defense  1d50+150>
 <sk             skill_battle_defense 1d100+150>
-<sk				      skill_weapon_hand    3d50+190>
+<sk             skill_weapon_hand    3d50+190>
 <naturalwc      1d4>
 <naturalac      8>
 <resource       shelter    288  1    CAVES>
@@ -9890,7 +9890,7 @@
 <sk             skill_magic_defense  1d100+900>
 <sk             skill_battle_defense 1d100+900>
 <sk             skill_magic          1d100+900>
-<sk	        skill_weapon_hand    1d100+900>
+<sk             skill_weapon_hand    1d100+900>
 <naturalac      3d6+15>
 <naturalwc      25>
 <eq             filthy_rich_backpack 0 0 1>
@@ -9941,7 +9941,7 @@
 <sk             skill_magic_defense  1d100+900>
 <sk             skill_battle_defense 1d100+550>
 <sk             skill_magic          1d100+900>
-<sk	        skill_weapon_hand    1d200+600>
+<sk             skill_weapon_hand    1d200+600>
 <naturalwc      6d3>
 <naturalac      26>
 <eq             undead_backpack 0 0 1>
@@ -10034,7 +10034,7 @@
 <naturalwc      2d3>
 <naturalac      8>
 <eq             backpack 0 0 1>
-<friends	602 603 538 542 522>
+<friends        602 603 538 542 522>
 <resource       food        5   1    CROPS>
 <resource       food        5   1    FRUIT>
 <resource       food        5   1    GRAIN>
@@ -10115,7 +10115,7 @@
 <sk             skill_magic_defense  1d150+850>
 <sk             skill_battle_defense 1d100+550>
 <sk             skill_magic          1d100+900>
-<sk	        skill_weapon_hand    1d200+800>
+<sk             skill_weapon_hand    1d200+800>
 <naturalwc      3d8>
 <naturalac      25>
 <eq             filthyrich_backpack 0 0 1>
@@ -10156,7 +10156,7 @@
 <sk           skill_magic_defense  25d10+725>
 <sk           skill_battle_defense 25d10+625>
 <sk           skill_magic          1d50+950>
-<sk	      skill_weapon_hand    2d200+200>
+<sk           skill_weapon_hand    2d200+200>
 <immunities   magic>
 <naturalwc    3d4>
 <naturalac    18>
@@ -10222,7 +10222,7 @@
 <sk             skill_magic_defense  1d150+800>
 <sk             skill_battle_defense 1d100+850>
 <sk             skill_magic          1d150+850>
-<sk	        skill_weapon_hand    1d200+800>
+<sk             skill_weapon_hand    1d200+800>
 <naturalwc      4d7>
 <naturalac      30>
 <eq             filthy_rich_backpack 0 0 1>
@@ -10244,7 +10244,7 @@
 <alignment      EVIL>
 <notoriety      -125>
 <hue            61 79>
-<objvar	        int spellCastersLevel 1d2+6>
+<objvar         int spellCastersLevel 1d2+6>
 <script         spellai>
 <script         monster>
 <sfxnotice      elementl_airelem1>
@@ -10386,7 +10386,7 @@
 <sk             skill_magic_defense  1d100+700>
 <sk             skill_battle_defense 1d100+650>
 <sk             skill_magic          1d100+700>
-<sk				skill_weapon_hand   1d200+600>
+<sk             skill_weapon_hand    1d200+600>
 <naturalac      3d6>
 <naturalwc      30>
 <resource       shelter    576  1    CAVES>
@@ -10422,7 +10422,7 @@
 <mana           1d15+60>
 <stamina        1d10+55>
 <sk             skill_melee          1d400+600>
-<sk				skill_weapon_hand   1d400+400>
+<sk             skill_weapon_hand    1d400+400>
 <sk             skill_magic_defense  1d450+300>
 <sk             skill_battle_defense 2d125+400>
 <naturalwc      3d6>
@@ -10465,7 +10465,7 @@
 <sk             skill_magic_defense  1d150+600>
 <sk             skill_battle_defense 1d100+550>
 <sk             skill_magic          1d150+600>
-<sk				skill_weapon_hand   1d200+700>
+<sk             skill_weapon_hand    1d200+700>
 <naturalwc      4d3>
 <naturalac      19>
 <resource       shelter    576  1    WATER>
@@ -10481,7 +10481,7 @@
 <corpsename     "air elemental">
 <alignment      EVIL>
 <notoriety      -125>
-<objvar	        int spellCastersLevel 2d3+1>
+<objvar         int spellCastersLevel 2d3+1>
 <objvar         int petAckSfx    elementl_airelem1>
 <objvar         int petRefuseSfx elementl_airelem4>
 <script         spellai>
@@ -10501,7 +10501,7 @@
 <sk             skill_magic_defense  1d150+600>
 <sk             skill_battle_defense 1d100+550>
 <sk             skill_magic          1d150+600>
-<sk				skill_weapon_hand   1d200+600>
+<sk             skill_weapon_hand    1d200+600>
 <naturalwc      4d3+1>
 <naturalac      19>
 <resource       shelter    576  1    MOUNTAINS>
@@ -10553,7 +10553,7 @@
 <region         { ORCSMALL 0 ORCLARGE 0 FORESTNOTNEARTOWN 0 DARKFOREST 0 DARKERFOREST 0 ORCCAMP 0 ORC 0 } >
 <regionlimit    { ORCSMALL 1 ORCLARGE 1 FORESTNOTNEARTOWN 2 DARKFOREST 4 DARKERFOREST 7 ORCCAMP 2 ORC 1 } >
 <sex            OTHER>
-<partialhue		GREEN_COLORS>
+<partialhue     GREEN_COLORS>
 <name           602>
 <corpsename     glowing>
 <alignment      EVIL>
@@ -10562,7 +10562,7 @@
 <objvar         int nonHuman 0>
 <script         nonhuman>
 <script         nonhumaneq>
-<script		spellai>
+<script         spellai>
 <script         loot>
 <sfxnotice      monster_orc1>
 <sfxidle        monster_orc2>
@@ -10584,7 +10584,7 @@
 <naturalac      15>
 <eq             { rich_backpack 1 filthyrich_backpack 2 } 0 0 1>
 <eq             { random_jewel 1 0 1 } 0 0 1 SELFCONTAINED>
-<friends	538 542 522 603>
+<friends        538 542 522 603>
 <resource       food        15  3    MEAT>
 <resource       shelter    576  1    CAVES>
 <resource       shelter    576  1    DUNGEONS>
@@ -10628,9 +10628,9 @@
 <naturalwc      2d8>
 <naturalac      15>
 <eq             { rich_backpack 1 filthyrich_backpack 2 } 0 0 1>
-<eq		{ flithyrich_backpack 0 } 0 0 1>
+<eq             { flithyrich_backpack 0 } 0 0 1>
 <eq             { random_jewel 1 0 1 } 0 0 1 SELFCONTAINED>
-<friends	522 538 602 542>
+<friends        522 538 602 542>
 <resource       food        15  3    MEAT>
 <resource       shelter    576  1    CAVES>
 <resource       shelter    576  1    DUNGEONS>
@@ -10671,7 +10671,7 @@
 <sk             skill_melee          1d25+975>
 <sk             skill_magic_defense  1d10+990>
 <sk             skill_battle_defense 1d400+550>
-<sk	        skill_weapon_hand    1d25+900>
+<sk             skill_weapon_hand    1d25+900>
 <naturalwc      6d6+5>
 <naturalac      30>
 <eq             { rich_backpack 3 filthyrich_backpack 1 } 0 0 1 SELFCONTAINED>
@@ -10891,7 +10891,7 @@
 <sex          MALE>
 <eq           hair all_hair_colors 1>
 <eq           facial_hair match_hair 1>
-<eq						GM_include 0 0 1 NONE>
+<eq           GM_include 0 0 1 NONE>
 <@@@ END @@@>
 <997>
 # GM Female
@@ -11380,7 +11380,7 @@
 <type         SHOPKEEPER 401>
 <frequency    100>
 <region       HEALER>
-<regionlimit	{ HEALER 1 } >
+<regionlimit  { HEALER 1 } >
 <job          healer>
 <sex          FEMALE>
 <name         000>
@@ -11925,7 +11925,7 @@
 <objvar       int guildMember 1>
 <objvar       int spellCastersLevel 2d3+1>
 <script       human>
-<script	      spellai>
+<script       spellai>
 <convfrag     BRITANNIA_GENERAL>
 <convfrag     BRITANNIA_NEEDS>
 <convfrag     BRITANNIA_INIT>
@@ -15537,7 +15537,7 @@
 <name         000>
 <partialhue   all_skin_colors>
 <objvar       int guildMember 1>
-<objvar		    int spellCastersLevel 8>
+<objvar       int spellCastersLevel 8>
 <script       human>
 <script       gm>
 <script       spellai>
@@ -15565,7 +15565,7 @@
 <sk           skill_weapon_piercing 25d10+725>
 <sk           skill_weapon_hand     25d10+725>
 <sk           skill_evaluate       25d10+525>
-<sk		        skill_magic          1d150+850>
+<sk           skill_magic          1d150+850>
 <sk           skill_inscribe       1d150+750>
 <immunities   magic>
 <eq           female_hair all_hair_colors 1>
@@ -16579,7 +16579,7 @@
 <type         SHOPKEEPER 401>
 <frequency    100>
 <region       BEEKEEPER>
-<regionlimit	{ BEEKEEPER 1 } >
+<regionlimit  { BEEKEEPER 1 } >
 <job          beekeeper>
 <sex          FEMALE>
 <name         000>
@@ -17651,18 +17651,18 @@
 <type           ITEM 3546>
 <hue            250 255 1>
 <objvar string lookAtText "Master Swordsman Moongate">
-<objvar int setInt		50>
-<objvar int setStr      	95>
-<objvar int setDex      	80>
-<objvar int setMaxHP		95>
+<objvar int setInt              50>
+<objvar int setStr              95>
+<objvar int setDex              80>
+<objvar int setMaxHP            95>
 <objvar int setMaxFatigue       80>
 <objvar int setMaxMana          50>
-<objvar int setSkill27 		940>
-<objvar int setSkill40 		940>
-<objvar int setSkill5 		940>
+<objvar int setSkill27          940>
+<objvar int setSkill40          940>
+<objvar int setSkill5           940>
 <objvar int setSkill21          450>
-<objvar int setSkill26		500>
-<objvar int putObject0 		101599>
+<objvar int setSkill26          500>
+<objvar int putObject0          101599>
 <objvar int playerOnly    0>
 <script set>
 <@@@ END @@@>
@@ -17671,18 +17671,18 @@
 <type           ITEM 3546>
 <hue            270 275 1>
 <objvar string lookAtText "Master Fencer Moongate">
-<objvar int setInt		50>
-<objvar int setStr      	95>
-<objvar int setDex      	80>
-<objvar int setMaxHP		95>
+<objvar int setInt              50>
+<objvar int setStr              95>
+<objvar int setDex              80>
+<objvar int setMaxHP            95>
 <objvar int setMaxFatigue       80>
 <objvar int setMaxMana          50>
-<objvar int setSkill27 		940>
-<objvar int setSkill42 		940>
-<objvar int setSkill5 		940>
+<objvar int setSkill27          940>
+<objvar int setSkill42          940>
+<objvar int setSkill5           940>
 <objvar int setSkill21          450>
-<objvar int setSkill26		500>
-<objvar int putObject0 		101599>
+<objvar int setSkill26          500>
+<objvar int putObject0          101599>
 <objvar int playerOnly    0>
 <script set>
 <@@@ END @@@>
@@ -17691,18 +17691,18 @@
 <type           ITEM 3546>
 <hue            210 215 1>
 <objvar string lookAtText "Master Armsman Moongate">
-<objvar int setInt		50>
-<objvar int setStr      	95>
-<objvar int setDex      	80>
-<objvar int setMaxHP		95>
+<objvar int setInt              50>
+<objvar int setStr              95>
+<objvar int setDex              80>
+<objvar int setMaxHP            95>
 <objvar int setMaxFatigue       80>
 <objvar int setMaxMana          50>
-<objvar int setSkill27 		940>
-<objvar int setSkill41 		940>
-<objvar int setSkill5 		940>
+<objvar int setSkill27          940>
+<objvar int setSkill41          940>
+<objvar int setSkill5           940>
 <objvar int setSkill21          450>
-<objvar int setSkill26		500>
-<objvar int putObject0 		101599>
+<objvar int setSkill26          500>
+<objvar int putObject0          101599>
 <objvar int playerOnly    0>
 <script set>
 <@@@ END @@@>
@@ -17711,18 +17711,18 @@
 <type           ITEM 3546>
 <hue            220 225 1>
 <objvar string lookAtText "Master Archer Moongate">
-<objvar int setInt		50>
-<objvar int setStr      	85>
-<objvar int setDex      	90>
-<objvar int setMaxHP		85>
+<objvar int setInt              50>
+<objvar int setStr              85>
+<objvar int setDex              90>
+<objvar int setMaxHP            85>
 <objvar int setMaxFatigue       90>
 <objvar int setMaxMana          50>
-<objvar int setSkill27 		940>
-<objvar int setSkill31 		940>
-<objvar int setSkill5 		940>
+<objvar int setSkill27          940>
+<objvar int setSkill31          940>
+<objvar int setSkill5           940>
 <objvar int setSkill21          450>
-<objvar int setSkill26		500>
-<objvar int putObject0 		101599>
+<objvar int setSkill26          500>
+<objvar int putObject0          101599>
 <objvar int playerOnly    0>
 <script set>
 <@@@ END @@@>
@@ -17731,18 +17731,18 @@
 <type           ITEM 3546>
 <hue            1109 1109 1>
 <objvar string lookAtText "Master Mage Moongate">
-<objvar int setInt		95>
-<objvar int setStr      	65>
-<objvar int setDex      	65>
-<objvar int setMaxHP		65>
+<objvar int setInt              95>
+<objvar int setStr              65>
+<objvar int setDex              65>
+<objvar int setMaxHP            65>
 <objvar int setMaxFatigue       65>
 <objvar int setMaxMana          95>
-<objvar int setSkill25 		940>
-<objvar int setSkill23 		940>
-<objvar int setSkill0 		940>
+<objvar int setSkill25          940>
+<objvar int setSkill23          940>
+<objvar int setSkill0           940>
 <objvar int setSkill21          450>
-<objvar int setSkill26		800>
-<objvar int putObject0 		101599>
+<objvar int setSkill26          800>
+<objvar int putObject0          101599>
 <objvar int putObject1          103501>
 <objvar int playerOnly    0>
 <script set>
@@ -17752,18 +17752,18 @@
 <type           ITEM 3546>
 <hue            10 15 1>
 <objvar string lookAtText "Master Smith Moongate">
-<objvar int setInt		50>
-<objvar int setStr      	95>
-<objvar int setDex      	80>
-<objvar int setMaxHP		95>
+<objvar int setInt              50>
+<objvar int setStr              95>
+<objvar int setDex              80>
+<objvar int setMaxHP            95>
 <objvar int setMaxFatigue       80>
 <objvar int setMaxMana          50>
-<objvar int setSkill45 		940>
-<objvar int setSkill7 		940>
-<objvar int setSkill37 		940>
+<objvar int setSkill45          940>
+<objvar int setSkill7           940>
+<objvar int setSkill37          940>
 <objvar int setSkill21          450>
-<objvar int setSkill26		500>
-<objvar int putObject0 		101599>
+<objvar int setSkill26          500>
+<objvar int putObject0          101599>
 <objvar int playerOnly    0>
 <script set>
 <@@@ END @@@>
@@ -18264,7 +18264,7 @@
 <@@@ END @@@>
 <1553>
 # spider silk reagent
-<type		        ITEM SPIDER_SILK_REAGENT>
+<type           ITEM SPIDER_SILK_REAGENT>
 <frequency      333>
 <region         { DUNGN 0 CEMETERY 0 GIANTSPIDER 0 GIANTSPIDERSMALL 0 GIANTSPIDERMEDIUM 0 GIANTSPIDERLARGE 0 DARKFOREST 0 DARKERFOREST 0 FORESTNOTNEARTOWN 0 FORESTNEARTOWN 0 NEWBIE 0 } >
 <regionlimit    { DUNGN 20 CEMETERY 25 GIANTSPIDER 6 GIANTSPIDERSMALL 6 GIANTSPIDERMEDIUM 12 GIANTSPIDERLARGE 20 DARKFOREST 100 DARKERFOREST 100 FORESTNOTNEARTOWN 150 FORESTNEARTOWN 100 NEWBIE 100 } >
@@ -18314,7 +18314,7 @@
 <eq           100538 0 0 -1 AT -2  2 0 >
 <eq           100538 0 0 -1 AT -2 -2 0 >
 <eq           100528 0 0 -1 AT -3 -3 0 >
-<eq	      100602 0 0 -1 AT 0 0 0 >
+<eq           100602 0 0 -1 AT 0 0 0 >
 <@@@ END @@@>
 <1558>
 # Small Lizardman Camp
@@ -18452,12 +18452,12 @@
 <1566>
 # crystal of communication
 <type    ITEM crystal_of_com>
-<objvar	int	newcharges 100>
+<objvar  int newcharges 100>
 <@@@ END @@@>
 <1567>
 # crystal of communication
 <type    ITEM crystal_of_com>
-<objvar	int	newcharges 200>
+<objvar  int newcharges 200>
 <@@@ END @@@>
 <1568>
 # checkerboard template
@@ -20105,7 +20105,7 @@
 # LIZARD GROUP
 <type         ITEM 1>
 <createsnpcs  1>
-<script 	poi_cleanup>
+<script       poi_cleanup>
 <eq           100535 0 0 -1 AT  1 -1 0 >
 <eq           100591 0 0 -1 AT  2  2 0 >
 <eq           100592 0 0 -1 AT  2 -2 0 >
@@ -20853,7 +20853,7 @@
 <sk             skill_magic_defense  10000>
 <sk             skill_battle_defense 10000>
 <sk             skill_magic          10000>
-<sk							skill_weapon_hand   10000>
+<sk             skill_weapon_hand    10000>
 <naturalac      3d8>
 <naturalwc      60>
 <resource       shelter    576  1    CAVES>
@@ -21955,7 +21955,7 @@
 <sk           skill_tame_animal     600>
 <eq           8252 1109 1109 1>
 <eq           8267 1109 1109 1>
-<eq						BACKPACK 0 0 1 wear>
+<eq           BACKPACK 0 0 1 wear>
 <eq           KITANA magic 100 50 250 0 0 1 contained>
 <eq           KITANA_2 magic 100 50 250 0 0 1 contained>
 <eq           BOW 0 0 1 contained>
@@ -21966,13 +21966,13 @@
 <eq           BLACK_BOOTS 902 902 1>
 <eq           FANCY_SHIRT 592 592 1>
 <eq           FANCY_PANTS 643 643 1>
-<eq						103501 0 0 1 contained>
-<eq						103502 0 0 1 contained>
-<eq						PICKAXE 0 0 1 contained>
-<eq						ARROWS 0 0 75 contained>
-<eq						BAD_AXE 0 0 1 contained>
-<eq						BAG 0 0 1 contained>
-<eq						RICH_POUCH 0 0 1 contained>
+<eq           103501 0 0 1 contained>
+<eq           103502 0 0 1 contained>
+<eq           PICKAXE 0 0 1 contained>
+<eq           ARROWS 0 0 75 contained>
+<eq           BAD_AXE 0 0 1 contained>
+<eq           BAG 0 0 1 contained>
+<eq           RICH_POUCH 0 0 1 contained>
 <@@@ END @@@>
 <3501>
 # fully loaded spellbook
