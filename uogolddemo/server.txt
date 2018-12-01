@@ -1,10 +1,10 @@
 <name      ocllo>
 <id        113>
 <port      10016>
-<width     512>
-<height    768>
-<x         3328>
-<y         2304>
+<width     6144>
+<height    4096>
+<x         0>
+<y         0>
 <statics   R>
 <terrain   R>
 <art       R>
@@ -13,5 +13,5 @@
 <animdata  R>
 <resources R>
 <templates R>
-<startx    341>
-<starty    316>
+<startx    3669>
+<starty    2620>
