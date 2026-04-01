@@ -33,6 +33,7 @@ trigger use {
 		setType(this, Q5L6);
 		string Q65J = Q5L6;
 		attachscript(this, Q65J);
+		string Q5X3 = Q62A;
 		detachscript(this, Q5X3);
 		break;
 	case 0x0C76
@@ -40,6 +41,7 @@ trigger use {
 		setType(this, Q5L6);
 		string Q4AH = Q5L6;
 		attachscript(this, Q4AH);
+		Q5X3 = Q62A;
 		detachscript(this, Q5X3);
 		break;
 	case 0x0C6F
@@ -47,6 +49,7 @@ trigger use {
 		setType(this, Q5L6);
 		string Q5GB = Q5L6;
 		attachscript(this, Q5GB);
+		Q5X3 = Q62A;
 		detachscript(this, Q5X3);
 		break;
 	case 0x1A99
