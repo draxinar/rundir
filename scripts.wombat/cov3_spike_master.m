@@ -9,6 +9,11 @@ trigger creation {
 	return(0x00);
 }
 
+trigger objectloaded {
+	callback(this, 0x01, 0x24);
+	return(0x00);
+}
+
 trigger message("doAnimation") {
 	list Q67G;
 	doLocAnimation(getLocation(this), 0x111C, 0x02, 0x10, 0x00, 0x00);

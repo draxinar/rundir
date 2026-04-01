@@ -5,6 +5,11 @@ trigger creation {
 	return(0x01);
 }
 
+trigger objectloaded {
+	callback(this, 0x01, 0x3D);
+	return(0x01);
+}
+
 trigger callback(0x3D) {
 	list Q4GI;
 	if (!hasObjVar(this, "disarmed")) {

@@ -11,6 +11,11 @@ trigger creation {
 	return(0x00);
 }
 
+trigger objectloaded {
+	callback(this, 0x02, 0x24);
+	return(0x00);
+}
+
 trigger callback(0x24) {
 	list Q5DQ;
 	messageToRange(getLocation(this), 0x03, "switchType", Q5DQ);

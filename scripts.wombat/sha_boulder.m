@@ -9,6 +9,11 @@ trigger creation {
 	return(0x00);
 }
 
+trigger objectloaded {
+	callback(this, 0x01, 0x24);
+	return(0x00);
+}
+
 trigger callback(0x24) {
 	loc Q59R = getLocation(this);
 	int Q5A4 = getX(Q59R);
