@@ -173,6 +173,20 @@ function int Q4JX(obj it) {
 }
 
 trigger decay {
-	int Q527 = Q4JX(this);
+	list contents;
+	getContents(contents, this);
+	if (numInList(contents) <= 0x02) {
+		if (!hasObjVar(this, "filled")) {
+			Q4JX(this);
+			setObjVar(this, "filled", 0x01);
+		} else if (!hasCallback(this, 0x50)) {
+			callback(this, random(0x0E10, 0x1518), 0x50);
+		}
+	}
 	return(0x01);
+}
+
+trigger callback(0x50) {
+	removeObjVar(this, "filled");
+	return(0x00);
 }
