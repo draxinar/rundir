@@ -46,7 +46,11 @@ function int Q4LC(obj it, obj Q68S) {
 	moveDir(Q4HP, getFacing(Q68S));
 	Q5Z2(Q68S, Q4HP);
 	setLastValidTerrainLoc(Q68S, Q4HP);
+	sfx(Q61U, 0x020E, 0x00);
 	int r = teleport(Q68S, Q4HP);
+	if (r) {
+		sfx(Q4HP, 0x01FE, 0x00);
+	}
 	return(!r);
 }
 
