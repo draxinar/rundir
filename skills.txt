@@ -721,3 +721,18 @@ CanUse:    	TRUE
 SkillWeight: 1
 SkillScript 	stealth
 Version:   13
+################################
+Skill:     	Remove Trap
+Strength:  	0
+Dexterity: 	80
+Intelligence: 	20
+StrReq     	0
+DexReq     	0
+IntReq     	0
+AdvRate    	2000 500 25
+StatAdvRate 	0
+SkillStat: 	100
+CanUse:    	TRUE
+SkillWeight: 1
+SkillScript 	removetrap
+Version:   13
