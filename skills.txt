@@ -691,3 +691,18 @@ CanUse:    	FALSE
 SkillWeight: 1
 SkillScript 	bladed
 Version:   2
+################################
+Skill:     	Meditation
+Strength:  	0
+Dexterity: 	0
+Intelligence: 	100
+StrReq     	0
+DexReq     	0
+IntReq     	0
+AdvRate    	2000 500 25
+StatAdvRate 	0
+SkillStat: 	100
+CanUse:    	TRUE
+SkillWeight: 1
+SkillScript 	meditation
+Version:   13
