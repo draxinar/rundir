@@ -21,6 +21,18 @@ function int Q50T(obj it) {
 }
 
 function int Q4X7(obj key, obj house) {
+	list Q667;
+	getObjListVar(Q667, key, "whatIUnlock");
+	list Q5Z5;
+	if (hasObjVar(house, "myhousedoors")) {
+		getObjListVar(Q5Z5, house, "myhousedoors");
+	}
+	int Q55T = numInList(Q5Z5);
+	for (int Q4EJ = 0x00; Q4EJ < Q55T; Q4EJ++) {
+		if (isInList(Q667, Q5Z5[Q4EJ])) {
+			return(0x01);
+		}
+	}
 	return(0x00);
 }
 
@@ -53,8 +65,4 @@ function int Q51P(obj key, obj it) {
 	list Q667;
 	getObjListVar(Q667, key, "whatIUnlock");
 	return(isInList(Q667, it));
-}
-
-trigger use {
-	return(0x01);
 }

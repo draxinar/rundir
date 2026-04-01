@@ -1117,7 +1117,7 @@
 1 0 0 0 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1461 0 0 33 1
 1194 -1 0 7 1
 1195 -1 -1 7 1
@@ -1268,7 +1268,7 @@
 1 0 0 0 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1461 0 0 33 1
 1194 -1 0 7 1
 1195 -1 -1 7 1
@@ -1419,7 +1419,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1476 0 0 33 1
 1194 1 -1 7 1
 1193 0 -1 7 1
@@ -1570,7 +1570,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1476 0 0 33 1
 1194 1 -1 7 1
 1193 0 -1 7 1
@@ -1721,7 +1721,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1476 0 0 33 1
 1193 1 1 7 1
 1193 1 0 7 1
@@ -1871,7 +1871,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1476 0 0 33 1
 1193 1 1 7 1
 1193 1 0 7 1
@@ -2021,7 +2021,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1476 0 0 33 1
 1196 -1 1 7 1
 1194 -1 0 7 1
@@ -2165,7 +2165,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1476 0 0 33 1
 1196 -1 1 7 1
 1194 -1 0 7 1
@@ -2309,7 +2309,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1476 0 0 33 1
 1195 0 1 7 1
 1193 1 1 7 1
@@ -2459,7 +2459,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1476 0 0 33 1
 1195 0 1 7 1
 1193 1 1 7 1
@@ -2609,7 +2609,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1446 0 0 33 1
 1193 1 0 7 1
 1195 -1 -1 7 1
@@ -2759,7 +2759,7 @@
 1 0 0 1 0 housedecay
 1196 0 0 7 1
 1701 0 3 7 0 housedoor
-3026 2 4 5 0 housesign
+3026 2 4 5 0 housesign housecmds
 1446 0 0 33 1
 1193 1 0 7 1
 1195 -1 -1 7 1
@@ -3230,7 +3230,7 @@
 1194 0 0 7 1
 1701 -1 6 7 0 housedoor
 1703 0 6 7 0 housedoor
-3026 3 7 5 0 housesign
+3026 3 7 5 0 housesign housecmds
 1705 -3 -1 7 0
 1705 3 -1 7 0
 99 6 -7 0 1 multiupdate
@@ -3759,7 +3759,7 @@
 1194 0 0 7 1
 1701 -1 6 7 0 housedoor
 1703 0 6 7 0 housedoor
-3026 3 7 5 0 housesign
+3026 3 7 5 0 housesign housecmds
 1705 -3 -1 7 0
 1705 3 -1 7 0
 99 6 -7 0 1 multiupdate
@@ -4288,7 +4288,7 @@
 310 0 0 7 1
 1701 -3 6 7 0 housedoor
 1703 -2 6 7 0 housedoor
-3026 1 7 5 0 housesign
+3026 1 7 5 0 housesign housecmds
 1705 -3 0 7 0
 1705 -2 0 27 0
 102 -7 -7 0 1 multiupdate
@@ -4942,7 +4942,7 @@
 310 0 0 7 1
 1701 -3 6 7 0 housedoor
 1703 -2 6 7 0 housedoor
-3026 1 7 5 0 housesign
+3026 1 7 5 0 housesign housecmds
 1705 -3 0 7 0
 1705 -2 0 27 0
 102 -7 -7 0 1 multiupdate
@@ -5596,7 +5596,7 @@
 515 0 0 7 1
 1701 -3 6 7 0 housedoor
 1703 -2 6 7 0 housedoor
-3026 1 7 5 0 housesign
+3026 1 7 5 0 housesign housecmds
 1705 -3 0 27 0
 1705 -3 0 7 0
 102 -7 -7 0 1 multiupdate
@@ -6247,7 +6247,7 @@
 515 0 0 7 1
 1701 -3 6 7 0 housedoor
 1703 -2 6 7 0 housedoor
-3026 1 7 5 0 housesign
+3026 1 7 5 0 housesign housecmds
 1705 -3 0 27 0
 1705 -3 0 7 0
 102 -7 -7 0 1 multiupdate
@@ -6898,7 +6898,7 @@
 1313 0 0 6 1
 1653 0 6 6 0 housedoor
 1655 1 6 6 0 housedoor
-3024 4 7 5 0 housesign
+3024 4 7 5 0 housesign housecmds
 1653 3 -2 6 0
 1661 1 4 26 0
 1661 1 4 46 0
@@ -8367,7 +8367,7 @@
 1313 0 0 6 1
 1653 0 6 6 0 housedoor
 1655 1 6 6 0 housedoor
-3024 4 7 5 0 housesign
+3024 4 7 5 0 housesign housecmds
 1653 3 -2 6 0
 1661 1 4 26 0
 1661 1 4 46 0
@@ -9836,7 +9836,7 @@
 1313 0 0 6 1
 1653 0 10 6 0 housedoor
 1655 1 10 6 0 housedoor
-3024 4 11 5 0 housesign
+3024 4 11 5 0 housesign housecmds
 489 12 -11 0 1 multiupdate
 491 -11 -11 0 1 multiupdate
 490 -11 12 0 1 multiupdate
@@ -12090,7 +12090,7 @@
 1313 0 0 6 1
 1653 0 10 6 0 housedoor
 1655 1 10 6 0 housedoor
-3024 4 11 5 0 housesign
+3024 4 11 5 0 housesign housecmds
 489 12 -11 0 1 multiupdate
 491 -11 -11 0 1 multiupdate
 490 -11 12 0 1 multiupdate
@@ -14343,7 +14343,7 @@
 1 0 0 0 0 housedecay
 1653 0 15 6 0 housedoor
 1655 1 15 6 0 housedoor
-3024 4 16 5 0 housesign
+3024 4 16 5 0 housesign housecmds
 1653 0 5 6 0
 1655 1 5 6 0
 1653 0 11 6 0
@@ -17807,7 +17807,7 @@
 1 0 0 0 0 housedecay
 1653 0 15 6 0 housedoor
 1655 1 15 6 0 housedoor
-3024 4 16 5 0 housesign
+3024 4 16 5 0 housesign housecmds
 1653 0 5 6 0
 1655 1 5 6 0
 1653 0 11 6 0
@@ -22113,7 +22113,7 @@
 100 7 -2 0 1
 1878 -2 7 2 1
 2972 0 7 5 1
-3026 0 7 5 0 housesign
+3026 0 7 5 0 housesign housecmds
 307 1 -7 7 1
 313 -7 1 7 1
 1279 4 6 7 1
@@ -22633,7 +22633,7 @@
 100 7 -2 0 1
 1878 -2 7 2 1
 2972 0 7 5 1
-3026 0 7 5 0 housesign
+3026 0 7 5 0 housesign housecmds
 307 1 -7 7 1
 313 -7 1 7 1
 1279 4 6 7 1
