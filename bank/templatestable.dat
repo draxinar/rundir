@@ -10849,6 +10849,517 @@
 <friends 559>
 <friends 582>
 <@@@ END @@@>
+<652>
+# alligator    (Summoning Spell)
+<type           NORMAL ALLIGATORS>
+<sex            OTHER>
+<name           500>
+<corpsename     alligator>
+<alignment      EVIL>
+<notoriety      -125>
+<hue            0 0>
+<objvar         int petAckSfx    animals_aligatr1>
+<objvar         int petRefuseSfx animals_aligatr4>
+<script         monster>
+<sfxnotice      animals_aligatr1>
+<sfxidle        animals_aligatr2>
+<sfxhit         animals_aligatr3>
+<sfxwashit      animals_aligatr4>
+<sfxdie         animals_aligatr5>
+<strength       1d25+75>
+<intelligence   1d10+10>
+<dexterity      1d20+5>
+<hp             1d25+75>
+<mana           0>
+<stamina        1d20+45>
+<sk             skill_magic_defense  1d150+250>
+<sk             skill_weapon_hand    1d200+400>
+<sk             skill_melee          1d200+400>
+<sk             skill_battle_defense 1d350+375>
+<naturalwc      2d9>
+<naturalac      15>
+<@@@ END @@@>
+<653>
+# black bear   (Summoning Spell)
+<type           NORMAL BLACK_BEAR>
+<sex            OTHER>
+<name           502>
+<corpsename     bear>
+<alignment      NEUTRAL>
+<hue            no_colors>
+<objvar         int petAckSfx    animals_bear1>
+<objvar         int petRefuseSfx animals_bear4>
+<script         monster>
+<sfxnotice      animals_bear1>
+<sfxidle        animals_bear2>
+<sfxhit         animals_bear3>
+<sfxwashit      animals_bear4>
+<sfxdie         animals_bear5>
+<strength       1d25+75>
+<intelligence   1d4+10>
+<dexterity      1d20+55>
+<hp             1d25+75>
+<mana           0>
+<stamina        1d20+55>
+<sk             skill_melee          1d200+400>
+<sk             skill_weapon_hand    1d200+400>
+<sk             skill_battle_defense 1d200+250>
+<sk             skill_magic_defense  1d200+200>
+<naturalwc      2d6>
+<naturalac      8>
+<@@@ END @@@>
+<654>
+# chicken      (Summoning Spell)
+<type           NORMAL CHICKENS>
+<sex            OTHER>
+<name           507>
+<corpsename     chicken>
+<alignment      NEUTRAL>
+<hue            no_colors>
+<objvar         int petAckSfx    animals_chicken1>
+<objvar         int petRefuseSfx animals_chicken4>
+<sfxnotice      animals_chicken1>
+<sfxidle        animals_chicken2>
+<sfxhit         animals_chicken3>
+<sfxwashit      animals_chicken4>
+<sfxdie         animals_chicken5>
+<strength       1d5+5>
+<intelligence   1d5>
+<dexterity      1d10+15>
+<hp             2d4>
+<mana           0>
+<stamina        15d3+15>
+<sk             skill_melee          1d50+50>
+<sk             skill_weapon_hand    1d50+50>
+<sk             skill_magic_defense  1d50+40>
+<sk             skill_battle_defense 1d100+150>
+<naturalwc      1d1>
+<naturalac      1>
+<resistances    slashing>
+<resistances    piercing>
+<resistances    bashing>
+<@@@ END @@@>
+<655>
+# doe          (Summoning Spell)
+<type           NORMAL DOES>
+<sex            OTHER>
+<name           510>
+<corpsename     deer>
+<alignment      NEUTRAL>
+<script         monster>
+<objvar         int petAckSfx    animals_deer3>
+<objvar         int petRefuseSfx animals_deer4>
+<sfxhit         animals_deer3>
+<sfxwashit      animals_deer4>
+<sfxdie         animals_deer5>
+<strength       2d16+19>
+<intelligence   2d16+15>
+<dexterity      2d16+45>
+<hp             6d4+25>
+<mana           0>
+<stamina        6d3+35>
+<sk             skill_melee          2d60+190>
+<sk             skill_weapon_hand    2d60+260>
+<sk             skill_magic_defense  2d60+150>
+<sk             skill_battle_defense 2d60+225>
+<naturalwc      1d8+3>
+<naturalac      8>
+<@@@ END @@@>
+<656>
+# eagle        (Summoning Spell)
+<type           NORMAL EAGLES>
+<sex            OTHER>
+<name           512>
+<corpsename     eagle>
+<alignment      NEUTRAL>
+<hue            no_colors>
+<objvar         int petAckSfx    animals_eagle1>
+<objvar         int petRefuseSfx animals_eagle4>
+<script         monster>
+<sfxnotice      animals_eagle1>
+<sfxidle        animals_eagle2>
+<sfxhit         animals_eagle3>
+<sfxwashit      animals_eagle4>
+<sfxdie         animals_eagle5>
+<strength       2d9+29>
+<intelligence   3d5+5>
+<dexterity      1d25+35>
+<hp             5d3+25>
+<mana           0>
+<stamina        25d3+35>
+<movetype       MT_FLYING>
+<sk             skill_melee          1d190+180>
+<sk             skill_weapon_hand    1d100+200>
+<sk             skill_magic_defense  3d50+150>
+<sk             skill_battle_defense 1d150+250>
+<naturalwc      2d4+2>
+<naturalac      11>
+<@@@ END @@@>
+<657>
+# giant scorpion (Summoning Spell)
+<type           NORMAL GIANT_SCORPION>
+<sex            OTHER>
+<name           556>
+<corpsename     "giant scorpion">
+<alignment      EVIL>
+<notoriety      -125>
+<objvar         int petAckSfx    animals_gscorp1>
+<objvar         int petRefuseSfx animals_gscorp4>
+<script         monster>
+<sfxnotice      monster_gscorp1>
+<sfxidle        monster_gscorp2>
+<sfxhit         monster_gscorp3>
+<sfxwashit      monster_gscorp4>
+<sfxdie         monster_gscorp5>
+<strength       3d15+70>
+<intelligence   1d15+15>
+<dexterity      1d20+75>
+<hp             3d15+70>
+<mana           0>
+<stamina        1d20+150>
+<sk             skill_melee          3d50+600>
+<sk             skill_magic_defense  1d50+300>
+<sk             skill_battle_defense 1d100+600>
+<sk             skill_weapon_hand    3d50+500>
+<naturalwc      3d4>
+<naturalac      14>
+<@@@ END @@@>
+<658>
+# giant serpent (Summoning Spell)
+<type           NORMAL 21>
+<sex            OTHER>
+<name           577>
+<alignment      NEUTRAL>
+<corpsename     "giant serpent">
+<hue            snake_colors>
+<sfxnotice      animals_snake1>
+<sfxidle        animals_snake2>
+<sfxhit         animals_snake3>
+<sfxwashit      animals_snake4>
+<sfxdie         animals_snake5>
+<strength       1d30+185>
+<intelligence   1d20+65>
+<dexterity      1d25+55>
+<hp             1d30+185>
+<mana           1d25+65>
+<stamina        1d20+55>
+<sk             skill_melee          1d50+650>
+<sk             skill_magic_defense  1d150+250>
+<sk             skill_battle_defense 1d150+450>
+<sk             skill_weapon_hand    1d200+600>
+<naturalwc      2d8+3>
+<naturalac      16>
+<@@@ END @@@>
+<659>
+# gorilla      (Summoning Spell)
+<type           NORMAL GORILLAS>
+<sex            OTHER>
+<name           557>
+<corpsename     gorilla>
+<alignment      NEUTRAL>
+<objvar         int petAckSfx    animals_gorilla1>
+<objvar         int petRefuseSfx animals_gorilla4>
+<script         monster>
+<sfxnotice      animals_gorilla1>
+<sfxidle        animals_gorilla2>
+<sfxhit         animals_gorilla3>
+<sfxwashit      animals_gorilla4>
+<sfxdie         animals_gorilla5>
+<strength       3d15+50>
+<intelligence   1d25+35>
+<dexterity      1d20+35>
+<hp             3d15+50>
+<mana           0>
+<stamina        1d30+35>
+<sk             skill_weapon_hand    3d50+430>
+<sk             skill_melee          3d50+430>
+<sk             skill_magic_defense  1d150+450>
+<sk             skill_battle_defense 1d100+430>
+<naturalwc      2d6>
+<naturalac      14>
+<@@@ END @@@>
+<660>
+# grey wolf    (Summoning Spell)
+<type           NORMAL TIMBER_WOLF>
+<sex            OTHER>
+<name           569>
+<corpsename     "grey wolf">
+<alignment      NEUTRAL>
+<hue            grey_colors>
+<objvar         int petAckSfx    animals_wolf1>
+<objvar         int petRefuseSfx animals_wolf4>
+<script         monster>
+<sfxnotice      animals_wolf1>
+<sfxidle        animals_wolf2>
+<sfxhit         animals_wolf3>
+<sfxwashit      animals_wolf4>
+<sfxdie         animals_wolf5>
+<strength       1d25+55>
+<intelligence   1d25+30>
+<dexterity      1d20+55>
+<hp             1d25+55>
+<mana           0>
+<stamina        1d20+55>
+<sk             skill_melee          1d150+450>
+<sk             skill_magic_defense  1d150+200>
+<sk             skill_battle_defense 1d100+450>
+<sk             skill_weapon_hand    1d150+450>
+<naturalwc      2d4>
+<naturalac      9>
+<@@@ END @@@>
+<661>
+# grizzly bear (Summoning Spell)
+<type           NORMAL GRIZZLY>
+<sex            OTHER>
+<name           546>
+<corpsename     "grizzly bear">
+<alignment      NEUTRAL>
+<notoriety      -125>
+<objvar         int petAckSfx    animals_grizzly1>
+<objvar         int petRefuseSfx animals_grizzly4>
+<script         monster>
+<sfxnotice      animals_grizzly1>
+<sfxidle        animals_grizzly2>
+<sfxhit         animals_grizzly3>
+<sfxwashit      animals_grizzly4>
+<sfxdie         animals_grizzly5>
+<strength       1d30+125>
+<intelligence   1d25+15>
+<dexterity      1d25+80>
+<hp             1d30+125>
+<mana           0>
+<stamina        1d25+80>
+<sk             skill_melee          1d300+700>
+<sk             skill_magic_defense  1d150+450>
+<sk             skill_battle_defense 1d150+700>
+<sk             skill_weapon_hand    1d150+500>
+<naturalwc      3d4+3>
+<naturalac      12>
+<@@@ END @@@>
+<662>
+# horse        (Summoning Spell)
+<type           NORMAL HORSES>
+<sex            OTHER>
+<name           515>
+<corpsename     horse>
+<alignment      NEUTRAL>
+<objvar         int petAckSfx    animals_horse1>
+<objvar         int petRefuseSfx animals_horse4>
+<script         monster>
+<sfxnotice      animals_horse1>
+<sfxidle        animals_horse2>
+<sfxhit         animals_horse3>
+<sfxwashit      animals_horse4>
+<sfxdie         animals_horse5>
+<strength       4d20+40>
+<intelligence   1d5+5>
+<dexterity      1d20+35>
+<hp             4d20+40>
+<mana           0>
+<stamina        1d20+35>
+<sk             skill_melee          3d50+290>
+<sk             skill_weapon_hand    3d50+290>
+<sk             skill_magic_defense  1d50+250>
+<sk             skill_battle_defense 1d100+350>
+<naturalwc      2d5+2>
+<naturalac      9>
+<@@@ END @@@>
+<663>
+# llama        (Summoning Spell)
+<type           NORMAL LLAMAS>
+<sex            OTHER>
+<name           550>
+<corpsename     llama>
+<alignment      NEUTRAL>
+<objvar         int petAckSfx    animals_llama3>
+<objvar         int petRefuseSfx animals_llama4>
+<script         monster>
+<sfxhit         animals_llama3>
+<sfxwashit      animals_llama4>
+<sfxdie         animals_llama5>
+<strength       2d15+19>
+<intelligence   1d15+15>
+<dexterity      1d20+35>
+<hp             2d15+19>
+<mana           0>
+<stamina        1d20+35>
+<sk             skill_melee          2d50+190>
+<sk             skill_magic_defense  1d50+150>
+<sk             skill_battle_defense 1d100+350>
+<sk             skill_weapon_hand    2d50+190>
+<naturalwc      2d3>
+<naturalac      8>
+<@@@ END @@@>
+<664>
+# pig          (Summoning Spell)
+<type           NORMAL PIGS>
+<sex            OTHER>
+<name           519>
+<corpsename     pig>
+<alignment      NEUTRAL>
+<objvar         int petAckSfx    animals_pig1>
+<objvar         int petRefuseSfx animals_pig4>
+<sfxnotice      animals_pig1>
+<sfxidle        animals_pig2>
+<sfxhit         animals_pig3>
+<sfxwashit      animals_pig4>
+<sfxdie         animals_pig5>
+<strength       3d15+19>
+<intelligence   1d8+25>
+<dexterity      3d15+19>
+<hp             3d15+20>
+<mana           0>
+<stamina        3d15+20>
+<sk             skill_melee          3d50+190>
+<sk             skill_weapon_hand    3d50+190>
+<sk             skill_magic_defense  1d80+250>
+<sk             skill_battle_defense 3d50+190>
+<naturalwc      2d3>
+<naturalac      6>
+<@@@ END @@@>
+<665>
+# polar bear   (Summoning Spell)
+<type           NORMAL POLAR_BEAR>
+<sex            OTHER>
+<name           547>
+<corpsename     "polar bear">
+<alignment      NEUTRAL>
+<hue            white_colors>
+<objvar         int petAckSfx    animals_bear1>
+<objvar         int petRefuseSfx animals_bear4>
+<script         monster>
+<sfxnotice      animals_bear1>
+<sfxidle        animals_bear2>
+<sfxhit         animals_bear3>
+<sfxwashit      animals_bear4>
+<sfxdie         animals_bear5>
+<strength       1d25+115>
+<intelligence   1d25+25>
+<dexterity      1d25+80>
+<hp             1d25+115>
+<mana           0>
+<stamina        1d25+80>
+<sk             skill_melee          1d300+700>
+<sk             skill_magic_defense  1d150+450>
+<sk             skill_battle_defense 1d150+700>
+<sk             skill_weapon_hand    1d300+600>
+<naturalwc      3d4+2>
+<naturalac      9>
+<@@@ END @@@>
+<667>
+# rabbit       (Summoning Spell)
+<type           NORMAL RABBITS>
+<sex            OTHER>
+<name           514>
+<corpsename     hare>
+<alignment      NEUTRAL>
+<hue            { animal_colors 1 no_colors 1 } >
+<objvar         int petAckSfx    animals_rabbit3>
+<objvar         int petRefuseSfx animals_rabbit4>
+<script         monster>
+<sfxhit         animals_rabit3>
+<sfxwashit      animals_rabit4>
+<sfxdie         animals_rabit5>
+<strength       1d5+5>
+<intelligence   1d9+5>
+<dexterity      1d13+25>
+<hp             4d2>
+<mana           0>
+<stamina        15d3+25>
+<sk             skill_melee          1d50+50>
+<sk             skill_weapon_hand    1d50+50>
+<sk             skill_magic_defense  1d90+50>
+<sk             skill_battle_defense 1d130+250>
+<naturalwc      1d2>
+<naturalac      1d6+1>
+<@@@ END @@@>
+<668>
+# slime        (Summoning Spell)
+<type           NORMAL SLIMES>
+<sex            OTHER>
+<name           562>
+<corpsename     slimy>
+<alignment      EVIL>
+<notoriety      -125>
+<hue            slime_colors>
+<objvar         int petAckSfx    animals_slime1>
+<objvar         int petRefuseSfx animals_slime4>
+<script         monster>
+<sfxnotice      monster_slime1>
+<sfxidle        monster_slime2>
+<sfxhit         monster_slime3>
+<sfxwashit      monster_slime4>
+<sfxdie         monster_slime5>
+<strength       3d5+19>
+<intelligence   1d5+15>
+<dexterity      1d6+15>
+<hp             3d5+15>
+<mana           1d5+15>
+<stamina        1d6+15>
+<sk             skill_melee          3d50+190>
+<sk             skill_magic_defense  1d50+150>
+<sk             skill_battle_defense 1d60+150>
+<sk             skill_weapon_hand    3d50+190>
+<naturalwc      1d5>
+<naturalac      4>
+<@@@ END @@@>
+<669>
+# snow leopard (Summoning Spell)
+<type           NORMAL PANTHERS>
+<sex            OTHER>
+<name           566>
+<corpsename     "snow leopard>
+<hue            white_colors>
+<alignment      NEUTRAL>
+<objvar         int petAckSfx    animals_panther1>
+<objvar         int petRefuseSfx animals_panther4>
+<script         monster>
+<sfxnotice      animals_panther1>
+<sfxidle        animals_panther2>
+<sfxhit         animals_panther3>
+<sfxwashit      animals_panther4>
+<sfxdie         animals_panther5>
+<strength       1d25+55>
+<intelligence   1d25+25>
+<dexterity      1d20+65>
+<hp             1d25+55>
+<mana           0>
+<stamina        1d20+65>
+<sk             skill_melee          1d150+450>
+<sk             skill_magic_defense  1d100+250>
+<sk             skill_battle_defense 1d100+550>
+<sk             skill_weapon_hand    1d100+400>
+<naturalwc      2d5>
+<naturalac      12>
+<@@@ END @@@>
+<670>
+# walrus       (Summoning Spell)
+<type           NORMAL WALRUSES>
+<sex            OTHER>
+<name           564>
+<corpsename     walrus>
+<alignment      NEUTRAL>
+<script         monster>
+<objvar         int petAckSfx    animals_walrus1>
+<objvar         int petRefuseSfx animals_walrus2>
+<sfxnotice      animals_walrus1>
+<sfxidle        animals_walrus2>
+<sfxhit         animals_walrus3>
+<sfxwashit      animals_walrus4>
+<sfxdie         animals_walrus5>
+<strength       2d5+19>
+<intelligence   1d5+15>
+<dexterity      1d10+45>
+<hp             2d5+19>
+<mana           0>
+<stamina        1d10+45>
+<sk             skill_melee          2d50+190>
+<sk             skill_magic_defense  1d50+150>
+<sk             skill_battle_defense 1d100+450>
+<sk             skill_weapon_hand    2d50+190>
+<naturalwc      3d2>
+<naturalac      9>
+<@@@ END @@@>
 <995>
 # GM included template
 <type         none 400>
