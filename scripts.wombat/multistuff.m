@@ -86,6 +86,7 @@ function void Q59B(obj multi) {
 		return;
 	}
 	int Q5ND = setDecayCount(multi, 0x00);
+	setObjVar(multi, "decayvisits", 0x00);
 	return;
 }
 
