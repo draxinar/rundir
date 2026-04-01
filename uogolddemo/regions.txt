@@ -112,8 +112,9 @@ version 64207
   865  2509  1098    10    11  -127   127            0 RUINS_6 0 0 0 0 0
   875  2578  1111    10    17  -127   127            0 LICHSMALL 0 0 0 0 0
   885  2092  1030   294   250  -127   127            0 FORESTNEARTOWN_COVE 0 0 0 0 0
-  895  2200  1110    49   136  -127   127            0 JUSTICE_CITY_COVE 0 0 0 0 0 Cove
-  896  2249  1187    37    59  -127   127            0 JUSTICE_CITY_COVE 0 0 0 0 0 Cove
+  895  2200  1110    49   136  -127   127            0 JUSTICE_COVE 0 0 0 0 0 Cove
+  896  2249  1187    37    59  -127   127            0 JUSTICE_COVE 0 0 0 0 0 Cove
+  898  2249  1187    37    59  -127   127            0 CITY_COVE 0 0 0 0 0 Cove
   910  2208  1111     7     9     0    59            0 GUARD_COVE 0 0 0 0 0 a guard tower in Cove
   911  2271  1196     8     7     0    39            0 GUARD_COVE 0 0 0 0 0 a guard tower in Cove
   912  2280  1223     7     9     0    39            0 GUARD_COVE 0 0 0 0 0 a guard tower in Cove
@@ -214,7 +215,6 @@ version 64207
  1665  1344  1768    16    22    15    35            0 BLACKSMITH_BRITAIN_2 0 0 0 0 0 Britain's Blacksmith Guild
  1675  1383  1800    26    26     0    20            0 PEASANTMEDIUM_BRITAIN_1 0 0 0 0 0 Britain
  1685  1419  1510   262   268   -10   127            0 CITY_BRITAIN 0 0 0 0 0 Britain
- 1686  1419  1539   293    54  -127   127            0 CITY_BRITAIN 0 0 0 0 0 Britain
  1700  1435  1547    41    21    30    69            0 BARDGUILD_BRITAIN 0 0 0 0 0 Lord British's Conservatory of Music
  1710  1468  1752    34    20    -5    25            0 DOCKS_BRITAIN_2 0 0 0 0 0 docks in Britain
  1711  1481  1745    18     7    -5    25            0 DOCKS_BRITAIN_2 0 0 0 0 0 docks in Britain
@@ -355,7 +355,8 @@ version 64207
  2685  2605  2267    76    57     0   127            0 JUNGLE_BUCDEN_1 0 0 0 0 0
  2695   518  2050   182   252  -127   127            0 NONE_SKARA_BRAE 0 0 0 0 0 Skara Brae
  2705   638  2062    12    11  -127   127            0 JUSTICE_SKARA_BRAE 0 0 0 0 0 Skara Brae Moongate
- 2715   538  2107   150   190  -127   127            0 JUSTICE_CITY_SKARA_BRAE 0 0 0 0 0 Skara Brae
+ 2715   538  2107   150   190  -127   127            0 JUSTICE_SKARA_BRAE 0 0 0 0 0 Skara Brae
+ 2716   538  2107   150   190  -127   127            0 CITY_SKARA_BRAE 0 0 0 0 0 Skara Brae
  2725   600  2232    16    24  -127   127            0 INN_SKARA_BRAE 0 0 0 0 0 The Falconer's Inn in Skara Brae
  2726   592  2240     8    16  -127   127            0 INN_SKARA_BRAE 0 0 0 0 0 The Falconer's Inn in Skara Brae
  2727   616  2240     8    16  -127   127            0 INN_SKARA_BRAE 0 0 0 0 0 The Falconer's Inn in Skara Brae
@@ -448,11 +449,12 @@ version 64207
  3515  1791  2631   373   297  -127   127            0 NONE_TRINSIC 0 0 0 0 0
  3525  2099  2655    62   183  -127   127            0 PLAINS_BARRIER 0 0 0 0 0
  3535  2099  2782    18    25  -127   127            0 JUSTICE_TRINSIC 0 0 0 0 0 Trinsic
- 3545  1856  2636    75    28  -127   127            0 JUSTICE_CITY_TRINSIC 0 0 0 0 0 Trinsic
- 3546  1816  2664   283   231  -127   127            0 JUSTICE_CITY_TRINSIC 0 0 0 0 0 Trinsic
- 3547  1970  2895    47    32  -127   127            0 JUSTICE_CITY_TRINSIC 0 0 0 0 0 Trinsic
- 3548  1796  2696    20    67     0   127            0 JUSTICE_CITY_TRINSIC 0 0 0 0 0 Trinsic
- 3549  1800  2796    16    52     0   127            0 JUSTICE_CITY_TRINSIC 0 0 0 0 0 Trinsic
+ 3545  1856  2636    75    28  -127   127            0 JUSTICE_TRINSIC 0 0 0 0 0 Trinsic
+ 3546  1816  2664   283   231  -127   127            0 JUSTICE_TRINSIC 0 0 0 0 0 Trinsic
+ 3547  1970  2895    47    32  -127   127            0 JUSTICE_TRINSIC 0 0 0 0 0 Trinsic
+ 3548  1796  2696    20    67     0   127            0 JUSTICE_TRINSIC 0 0 0 0 0 Trinsic
+ 3549  1800  2796    16    52     0   127            0 JUSTICE_TRINSIC 0 0 0 0 0 Trinsic
+ 3552  1816  2664   283   231  -127   127            0 CITY_TRINSIC 0 0 0 0 0 Trinsic
  3555  1817  2729    11    14  -127   127            0 STABLES_TRINSIC_1 0 0 0 0 0 A Stable in Trinsic
  3565  2005  2799    18    14  -127   127            0 STABLES_TRINSIC_2 0 0 0 0 0 A Stable in Trinsic
  3575  1834  2728    22    16  -127   127            0 INN_TRINSIC_1 0 0 0 0 0 The Travellers Inn in Trinsic
@@ -508,9 +510,9 @@ version 64207
  3937  1046  3361   184   227  -127   127            0 HOUSING_NO_JHELOM 0 0 0 0 0 Jhelom Islands
  3955  1112  3568    30    20  -127   127            0 LIVESTK_JHELOM_1 0 0 0 0 0 a farm on Jhelom Islands
  3965  1112  3588    30    31  -127   127            0 FARM_JHELOM_1 0 0 0 0 0 a farm on Jhelom Islands
- 3975  1303  3670   189   225     0   127            0 JUSTICE_CITY_JHELOM 0 0 0 0 0 Jhelom
- 3976  1338  3895    74    28     0   127            0 JUSTICE_CITY_JHELOM 0 0 0 0 0 Jhelom
- 3977  1383  3951   109    94     0   127            0 JUSTICE_CITY_JHELOM 0 0 0 0 0 Jhelom
+ 3975  1303  3670   189   225     0   127            0 JUSTICE_JHELOM 0 0 0 0 0 Jhelom
+ 3976  1338  3895    74    28     0   127            0 JUSTICE_JHELOM 0 0 0 0 0 Jhelom
+ 3978  1303  3670   189   375     0   127            0 CITY_JHELOM 0 0 0 0 0 Jhelom
  3995  1352  3800    16    32   -20   127            0 INN_JHELOM 0 0 0 0 0 The Morning Star Inn in Jhelom
  3996  1368  3808     8    16   -20   127            0 INN_JHELOM 0 0 0 0 0 The Morning Star Inn in Jhelom
  4010  1432  3768    32     8   -20   127            0 TAVERN_JHELOM 0 0 0 0 0 The Horse's Head in Jhelom
@@ -594,9 +596,10 @@ version 64207
  4600  2436  3534   121   131  -127   127            0 JUNGLE_MARBLE 0 0 0 0 0 Marble Island
  4610  2688     0  1160  4096  -127   127            0 BRITANNIA_5 0 0 0 0 0
  4620  2688     0   124   204  -127   127            0 NONE_NORTHMINES 0 0 0 0 0 north mines
- 4630  2816   648   248   364  -127   127            0 JUSTICE_CITY_VESPER 0 0 0 0 0 Vesper
- 4631  2893   598   121    50  -127   127            0 JUSTICE_CITY_VESPER 0 0 0 0 0 Vesper
- 4632  2728   944    88    57  -127   127            0 JUSTICE_CITY_VESPER 0 0 0 0 0 Vesper
+ 4630  2816   648   248   364  -127   127            0 JUSTICE_VESPER 0 0 0 0 0 Vesper
+ 4631  2893   598   121    50  -127   127            0 JUSTICE_VESPER 0 0 0 0 0 Vesper
+ 4632  2728   944    88    57  -127   127            0 JUSTICE_VESPER 0 0 0 0 0 Vesper
+ 4634  2816   648   248   364  -127   127            0 CITY_VESPER 0 0 0 0 0 Vesper
  4650  2952   616    16    16  -127   127            0 CLOTHIER_VESPER_1 0 0 0 0 0 The Spinning Wheel in Vesper
  4651  2968   616     8     8  -127   127            0 CLOTHIER_VESPER_1 0 0 0 0 0 The Spinning Wheel in Vesper
  4665  2984   632    16    16  -127   127            0 PROVISIONER_VESPER_1 0 0 0 0 0 The Adventurers Supplies in Vesper
@@ -682,9 +685,10 @@ version 64207
  5295  3518  1122    25    18  -127   127            0 CEMETERY_NUJELM 0 0 0 0 0
  5296  3502  1140    29    22  -127   127            0 CEMETERY_NUJELM 0 0 0 0 0
  5297  3531  1140    22    12  -127   127            0 CEMETERY_NUJELM 0 0 0 0 0
- 5315  3496  1168   136   152  -127   127            0 JUSTICE_CITY_NUJELM 0 0 0 0 0 Nujel'm
- 5316  3632  1168   192   256  -127   127            0 JUSTICE_CITY_NUJELM 0 0 0 0 0 Nujel'm
- 5317  3566  1040   258   128  -127   127            0 JUSTICE_CITY_NUJELM 0 0 0 0 0 Nujel'm
+ 5315  3496  1168   136   152  -127   127            0 JUSTICE_NUJELM 0 0 0 0 0 Nujel'm
+ 5316  3632  1168   192   256  -127   127            0 JUSTICE_NUJELM 0 0 0 0 0 Nujel'm
+ 5317  3566  1040   258   128  -127   127            0 JUSTICE_NUJELM 0 0 0 0 0 Nujel'm
+ 5319  3632  1168   192   256  -127   127            0 CITY_NUJELM 0 0 0 0 0 Nujel'm
  5335  3544  1168    24    40  -127   127            0 MARKET_NUJELM 0 0 0 0 0 Nujel'm Marketplace
  5345  3552  1168     8     8  -127   127            0 BUTCHER_NUJELM_1 0 0 0 0 0 Nujelm Butcher
  5355  3544  1176     8     8  -127   127            0 TANNER_NUJELM_1 0 0 0 0 0 Nujelm Tannery
@@ -733,9 +737,11 @@ version 64207
  5711  2784  2095    65    52     0   127            0 JUNGLE_BUCDEN_2 0 0 0 0 0
  5712  2766  2212   114   133     0   127            0 JUNGLE_BUCDEN_2 0 0 0 0 0
  5730  3524  2018   291   288  -127   127            0 NONE_MAGINCIA 0 0 0 0 0 Isle of Magincia
- 5740  3652  2045   152    49  -127   127            0 JUSTICE_CITY_MAGINCIA 0 0 0 0 0 Magincia
- 5741  3652  2094   160   180  -127   127            0 JUSTICE_CITY_MAGINCIA 0 0 0 0 0 Magincia
- 5742  3652  2274    51    29  -127   127            0 JUSTICE_CITY_MAGINCIA 0 0 0 0 0 Magincia
+ 5740  3652  2045   152    49  -127   127            0 JUSTICE_MAGINCIA 0 0 0 0 0 Magincia
+ 5741  3652  2094   160   180  -127   127            0 JUSTICE_MAGINCIA 0 0 0 0 0 Magincia
+ 5742  3652  2274    51    29  -127   127            0 JUSTICE_MAGINCIA 0 0 0 0 0 Magincia
+ 5744  3652  2094   160   180  -127   127            0 CITY_MAGINCIA 0 0 0 0 0 Magincia
+ 5745  3652  2274    51    29  -127   127            0 CITY_MAGINCIA 0 0 0 0 0 Magincia
  5760  3684  2064    20     8  -127   127            0 COUNCIL_MAGINCIA 0 0 0 0 0 High Council of Magincia
  5761  3692  2056    12    24  -127   127            0 COUNCIL_MAGINCIA 0 0 0 0 0 High Council of Magincia
  5775  3656  2136    16     8  -127   127            0 MINERSGUILD_MAGINCIA 0 0 0 0 0 Magincia Miner's Guild
@@ -763,7 +769,8 @@ version 64207
  5975  3528  2098    97    96  -127   127            0 JUNGLE_MAGINCIA 0 0 0 0 0
  5985  3554  2132    18    18  -127   127            0 JUSTICE_MAGINCIA 0 0 0 0 0 Magincia Moongate
  5995  2760  3318   322   322  -127   127            0 NONE_ISLE_OF_DEEDS 0 0 0 0 0 Isle of Deeds
- 6005  2868  3324   205   195  -127   127            0 JUSTICE_CITY_SERPHOLD 0 0 0 0 0 Serpents Hold
+ 6005  2868  3324   205   195  -127   127            0 JUSTICE_SERPHOLD 0 0 0 0 0 Serpents Hold
+ 6006  2868  3324   205   195  -127   127            0 CITY_SERPHOLD 0 0 0 0 0 Serpents Hold
  6015  2896  3512    16     7  -127   127            0 STABLES_SERPHOLD_1 0 0 0 0 0 Serpents Hold Stablery
  6025  2874  3466    11    11  -127   127            0 BANK_SERPHOLD 0 0 0 0 0 Bank in Serpents Hold
  6040  2904  3480     8    16  -127   127            0 BUTCHER_SERPHOLD 0 0 0 0 0 Serpent Hold Meats
@@ -867,7 +874,8 @@ version 64207
  6870  4246   784   494   742  -127   127            0 NONE_VERITY 0 0 0 0 0 Verity Island
  6880  4558  1471     8     9  -127   127            0 COTTON_MOONGLOW 0 0 0 0 0 A Cotton Field in Moonglow
  6881  4569  1471     8     9  -127   127            0 COTTON_MOONGLOW 0 0 0 0 0 A Cotton Field in Moonglow
- 6895  4367  1050   142   145     0   127            0 JUSTICE_CITY_MOONGLOW 0 0 0 0 0 Moonglow
+ 6895  4367  1050   142   145     0   127            0 JUSTICE_MOONGLOW 0 0 0 0 0 Moonglow
+ 6896  4367  1050   142   145     0   127            0 CITY_MOONGLOW 0 0 0 0 0 Moonglow
  6905  4480  1056     8    16     0   127            0 INN_MOONGLOW_1 0 0 0 0 0 Moonglow Student Hostel
  6906  4476  1060    16     8     0   127            0 INN_MOONGLOW_1 0 0 0 0 0 Moonglow Student Hostel
  6920  4384  1152     8    24     0   127            0 INN_MOONGLOW_2 0 0 0 0 0 The Scholar's Inn in Moonglow
@@ -973,15 +981,15 @@ version 64207
  7555  5213    24    64    68  -127   127            0 WINDFOREST_WIND 0 0 0 0 0 Wind park
  7565  5124   138    55   104  -127   127            0 LICHMEDIUM_WIND 0 0 0 0 0
  7575  5233   206    31    38  -127   127            0 DRAGON_WIND 0 0 0 0 0
- 7585  5286    19    80   120  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
- 7586  5132    58    81    68  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
- 7587  5197   112    97    58  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
- 7588  5197   112    87    66  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
- 7589  5197   112    75    71  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
- 7590  5197   112    65    81  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
- 7591  5132     3    70   123  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
- 7592  5197    98    55   106  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
- 7593  5279    57    87    82  -127   127            0 JUSTICE_CITY_WIND 0 0 0 0 0 Wind
+ 7585  5286    19    80   120  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
+ 7586  5132    58    81    68  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
+ 7587  5197   112    97    58  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
+ 7588  5197   112    87    66  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
+ 7589  5197   112    75    71  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
+ 7590  5197   112    65    81  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
+ 7591  5132     3    70   123  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
+ 7592  5197    98    55   106  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
+ 7593  5279    57    87    82  -127   127            0 JUSTICE_WIND 0 0 0 0 0 Wind
  7610  5159    15    25     9  -127    56            0 INN_WIND_1 0 0 0 0 0 Seeker's Inn in Wind
  7611  5159    15     9    25  -127    56            0 INN_WIND_1 0 0 0 0 0 Seeker's Inn in Wind
  7612  5175    15     9    17  -127    56            0 INN_WIND_1 0 0 0 0 0 Seeker's Inn in Wind
