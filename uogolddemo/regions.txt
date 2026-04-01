@@ -910,6 +910,7 @@ version 64207
  7145  4278   915    54    19     0   127            0 LIBRARY_JUSTICE_MOONGLOW 0 0 0 0 0 The Lycaeum in Moonglow
  7146  4283   944    53    73     0   127            0 LIBRARY_JUSTICE_MOONGLOW 0 0 0 0 0 The Lycaeum in Moonglow
  7160  4377  1015    59    37   -10   127            0 JUSTICE_DOCKS_MOONGLOW 0 0 0 0 0 docks in Moonglow
+ 7161  4377  1015    59    35   -10   127            0 DOCKS_MOONGLOW 0 0 0 0 0 docks in Moonglow
  7170  4389  1198    47    39     0   127            0 JUSTICE_MOONGLOW_4 0 0 0 0 0 barracks in Moonglow
  7180  4700  1108    17    18     0   127            0 JUSTICE_MOONGLOW_3 0 0 0 0 0 telescope in Moonglow
  7190  4622  1316    22    24     0   127            0 JUSTICE_FARM_MOONGLOW 0 0 0 0 0 a farm in Moonglow
