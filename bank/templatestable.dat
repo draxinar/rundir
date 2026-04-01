@@ -6544,6 +6544,7 @@
 <regionlimit    { SWAMP 60 ZOO_SWAMP 1 JUNGLE 20 ALLIGATORSMALL 15 ALLIGATORMEDIUM 25 ALLIGATORLARGE 38 ALLIGATOR 5 } >
 <sex            OTHER>
 <name           500>
+<objvar         int predator 2>
 <corpsename     alligator>
 <alignment      EVIL>
 <notoriety      -125>
@@ -6586,6 +6587,10 @@
 <regionlimit    { FORESTNEARTOWN 2 CITY 6 ZOO_FOREST 1 FORESTNOTNEARTOWN 10 DARKFOREST 10 DARKERFOREST 5 NEWBIE 15 WINDFOREST 2 } >
 <sex            OTHER>
 <name           501>
+<objvar         int foddertype 1>
+<objvar         int aversionPower 2>
+<objvar         int aversionRepute 0>
+<objvar         int flying 1>
 <corpsename     bird>
 <hue            bird_colors>
 <alignment      NEUTRAL>
@@ -6637,6 +6642,7 @@
 <regionlimit    { FORESTNEARTOWN 5 FORESTNOTNEARTOWN 30 DARKFOREST 35 DARKERFOREST 45 DARKESTFOREST 25 ZOO_FOREST 1 BEARSMALL 5 BEARMEDIUM 10 BEARLARGE 18 WINDFOREST 5 } >
 <sex            OTHER>
 <name           502>
+<objvar         int predator 1>
 <corpsename     bear>
 <alignment      NEUTRAL>
 <hue            no_colors>
@@ -6722,6 +6728,7 @@
 <regionlimit    { ZOO_FOREST 1 BROWNBEARSMALL 5 BROWNBEARMEDIUM 15 BROWNBEARLARGE 20 FORESTNEARTOWN 3 FORESTNOTNEARTOWN 20 DARKFOREST 25 DARKERFOREST 25 WINDFOREST 3 } >
 <sex            OTHER>
 <name           504>
+<objvar         int predator 1>
 <corpsename     bear>
 <alignment      NEUTRAL>
 <hue            brown_colors>
@@ -6755,6 +6762,7 @@
 <resource       production  12  0    FUR>
 <resource       desire       1 -3    DANGER>
 <resource       desire       1 -3    HOUSES>
+<resource       desire       5  1    HONEY>
 <@@@ END @@@>
 <505>
 # timber wolf   Difficulty 3
@@ -6764,6 +6772,8 @@
 <regionlimit    { ZOO_FOREST 1 TIMBERWOLFSMALL 5 TIMBERWOLFMEDIUM 10 TIMBERWOLFLARGE 15 FORESTNEARTOWN 15 FORESTNOTNEARTOWN 35 DARKFOREST 35 DARKERFOREST 35 WINDFOREST 5 } >
 <sex            OTHER>
 <name           505>
+<objvar         int predator 1>
+<objvar         int packing 1>
 <corpsename     "timber wolf">
 <alignment      NEUTRAL>
 <hue            no_colors>
@@ -6796,6 +6806,7 @@
 <resource       desire       1 -3    DANGER>
 <resource       desire       1 -3    HOUSES>
 <resource       desire       5  1    SELF>
+<resource       desire       1 -6    CARNIVOREMEAT>
 <@@@ END @@@>
 <506>
 # cat           Difficulty 1
@@ -6805,6 +6816,7 @@
 <regionlimit    { FARM 5 CITY 30 CATSMALL 5 CATMEDIUM 15 CATLARGE 30 FORESTNEARTOWN 10 NEWBIE 10 WINDFOREST 3 } >
 <sex            OTHER>
 <name           506>
+<objvar         int predator 4>
 <corpsename     cat>
 <alignment      NEUTRAL>
 <hue            animal_colors>
@@ -6846,6 +6858,9 @@
 <regionlimit    { LIVESTK 15 CHICKENSMALL 19 CHICKENMEDIUM 29 CHICKENLARGE 39 FORESTNEARTOWN 20 FORESTNOTNEARTOWN 20 NEWBIE 15 WINDFOREST 7 } >
 <sex            OTHER>
 <name           507>
+<objvar         int foddertype 1>
+<objvar         int aversionPower 2>
+<objvar         int aversionRepute 0>
 <corpsename     chicken>
 <alignment      NEUTRAL>
 <hue            no_colors>
@@ -6888,6 +6903,9 @@
 <regionlimit    { LIVESTK 5 COWSMALL 9 COWMEDIUM 17 COWLARGE 25 FORESTNEARTOWN 20 FORESTNOTNEARTOWN 40 NEWBIE 10 WINDFOREST 7 } >
 <sex            OTHER>
 <name           508>
+<objvar         int foddertype 3>
+<objvar         int aversionPower 4>
+<objvar         int aversionRepute 0>
 <corpsename     cow>
 <alignment      NEUTRAL>
 <hue            no_colors>
@@ -6931,6 +6949,8 @@
 <regionlimit    { RUINS 1 ZOO_FOREST 1 RAVENSMALL 10 RAVENMEDIUM 20 RAVENLARGE 30 FORESTNEARTOWN 15 FORESTNOTNEARTOWN 15 DARKFOREST 15 DARKERFOREST 15 NEWBIE 20 WINDFOREST 5 } >
 <sex            OTHER>
 <name           509>
+<objvar         int scavenger 1>
+<objvar         int flying 1>
 <corpsename     raven>
 <alignment      NEUTRAL>
 <hue            black_colors>
@@ -6980,6 +7000,9 @@
 <regionlimit    { ZOO_FOREST 1 ZOO_PLAINS 1 DOESMALL 10 DOEMEDIUM 20 DOELARGE 30 FORESTNEARTOWN 40 FORESTNOTNEARTOWN 50 DARKFOREST 45 DARKERFOREST 40 NEWBIE 30 WINDFOREST 10 } >
 <sex            OTHER>
 <name           510>
+<objvar         int foddertype 2>
+<objvar         int aversionPower 3>
+<objvar         int aversionRepute 0>
 <corpsename     deer>
 <alignment      NEUTRAL>
 <script         monster>
@@ -7064,7 +7087,7 @@
 <hue            no_colors>
 <objvar         int flying 1>
 <objvar         int predator 1>
-<objvar         int pack 1>
+<objvar         int packing 1>
 <objvar         int petCanTame   35>
 <objvar         int petAckSfx    animals_eagle1>
 <objvar         int petRefuseSfx animals_eagle4>
@@ -7108,6 +7131,9 @@
 <regionlimit    { LIVESTK 10 GOATSMALL 15 GOATMEDIUM 25 GOATLARGE 35 FORESTNEARTOWN 25 FORESTNOTNEARTOWN 25 GOAT 1 NEWBIE 10 WINDFOREST 8 } >
 <sex            OTHER>
 <name           513>
+<objvar         int foddertype 2>
+<objvar         int aversionPower 3>
+<objvar         int aversionRepute 0>
 <corpsename     goat>
 <alignment      NEUTRAL>
 <objvar         int petCanTame   30>
@@ -7152,6 +7178,9 @@
 <regionlimit    { LIVESTK 3 FORESTNOTNEARTOWN 120 FORESTNEARTOWN 76 FARM 10 ZOO_PLAINS 1 ZOO_FOREST 1 RABBITSMALL 10 RABBITMEDIUM 40 RABBITLARGE 60 DARKFOREST 30 DARKERFOREST 30 DARKESTFOREST 20 NEWBIE 76 WINDFOREST 25 } >
 <sex            OTHER>
 <name           514>
+<objvar         int foddertype 1>
+<objvar         int aversionPower 2>
+<objvar         int aversionRepute 0>
 <corpsename     hare>
 <alignment      NEUTRAL>
 <hue            { animal_colors 1 no_colors 1 } >
@@ -7195,6 +7224,9 @@
 <regionlimit    { ZOO_PLAINS 1 HORSESMALL 15 HORSEMEDIUM 25 HORSELARGE 35 FORESTNEARTOWN 25 FORESTNOTNEARTOWN 45 HORSE 1 NEWBIE 10 WINDFOREST 8 } >
 <sex            OTHER>
 <name           515>
+<objvar         int foddertype 3>
+<objvar         int aversionPower 4>
+<objvar         int aversionRepute 0>
 <corpsename     horse>
 <alignment      NEUTRAL>
 <objvar         int petCanTame   45>
@@ -7284,6 +7316,7 @@
 <regionlimit    { ZOO_FOREST 1 COUGARSMALL 5 COUGARMEDIUM 10 COUGARLARGE 20 FORESTNEARTOWN 10 FORESTNOTNEARTOWN 20 DARKFOREST 20 DARKERFOREST 28 WINDFOREST 4 } >
 <sex            OTHER>
 <name           517>
+<objvar         int predator 2>
 <corpsename     cougar>
 <alignment      NEUTRAL>
 <objvar         int petCanTame   55>
@@ -7327,6 +7360,7 @@
 <regionlimit    { ZOO_JUNGLE 1 PANTHERSMALL 5 PANTHERMEDIUM 10 PANTHERLARGE 20 JUNGLENEARTOWN 5 JUNGLENOTNEARTOWN 15 FORESTNEARTOWN 10 FORESTNOTNEARTOWN 20 DARKFOREST 20 WINDFOREST 4 } >
 <sex            OTHER>
 <name           518>
+<objvar         int predator 2>
 <corpsename     panther>
 <alignment      NEUTRAL>
 <hue            black_colors>
@@ -7370,6 +7404,9 @@
 <regionlimit    { LIVESTK 10 PIGSMALL 10 PIGMEDIUM 15 PIGLARGE 20 FORESTNEARTOWN 15 FORESTNOTNEARTOWN 20 PIG 5 NEWBIE 10 WINDFOREST 5 } >
 <sex            OTHER>
 <name           519>
+<objvar         int foddertype 1>
+<objvar         int aversionPower 2>
+<objvar         int aversionRepute 0>
 <corpsename     pig>
 <alignment      NEUTRAL>
 <objvar         int petCanTame   30>
@@ -7411,6 +7448,9 @@
 <regionlimit    { RUINS 8 CITY 12 DOCKS 4 TOWNRATSMALL 10 TOWNRATMEDIUM 20 TOWNRATLARGE 30 FORESTNOTNEARTOWN 20 NEWBIE 20 } >
 <sex            OTHER>
 <name           520>
+<objvar         int foddertype 4>
+<objvar         int aversionPower 2>
+<objvar         int aversionRepute 0>
 <corpsename     rat>
 <alignment      NEUTRAL>
 <notoriety      -125>
@@ -7579,6 +7619,9 @@
 <regionlimit    { LIVESTK 8 SHEEP 18 WSHEEPSMALL 20 WSHEEPMEDIUM 35 WSHEEPLARGE 43 FORESTNEARTOWN 30 FORESTNOTNEARTOWN 30 NEWBIE 30 WINDFOREST 10 } >
 <sex            OTHER>
 <name           524>
+<objvar         int foddertype 2>
+<objvar         int aversionPower 3>
+<objvar         int aversionRepute 0>
 <corpsename     sheep>
 <alignment      NEUTRAL>
 <hue            { no_colors 9 black_colors 1 } >
@@ -7625,6 +7668,10 @@
 <regionlimit    { SWAMP 50 JUNGLE 50 ZOO_JUNGLE 1 } >
 <sex            OTHER>
 <name           525>
+<objvar         int foddertype 1>
+<objvar         int aversionPower 2>
+<objvar         int aversionRepute 0>
+<objvar         int flying 1>
 <corpsename     bird>
 <hue            bird_colors>
 <alignment      NEUTRAL>
@@ -7676,6 +7723,9 @@
 <regionlimit    { COW 3 LIVESTK 3 BULLSMALL 2 BULLMEDIUM 4 BULLLARGE 8 FORESTNEARTOWN 10 FORESTNOTNEARTOWN 10 WINDFOREST 4 } >
 <sex            OTHER>
 <name           526>
+<objvar         int foddertype 3>
+<objvar         int aversionPower 4>
+<objvar         int aversionRepute 0>
 <corpsename     bull>
 <alignment      NEUTRAL>
 <hue            { brown_colors 1 black_colors 1 white_colors 1 no_colors 1 } >
@@ -8497,6 +8547,9 @@
 <alignment      NEUTRAL>
 <notoriety      -125>
 <objvar         int spellCastersLevel 7>
+<objvar         int predator 3>
+<objvar         int flying 1>
+<objvar         int hoarder 1>
 <script         dragonai>
 <script         monster>
 <objvar         int petCanTame   99>
@@ -8531,16 +8584,19 @@
 <eq             { random_jewel 1 0 1 } 0 0 1 SELFCONTAINED>
 <eq             { random_jewel 1 0 1 } 0 0 1 SELFCONTAINED>
 <resource       food         80 3    MEAT>
+<resource       food         40 3    CARNIVOREMEAT>
 <resource       shelter     576 1    CAVES>
 <resource       shelter     288 1    DUNGEONS>
+<resource       shelter     288 1    MOUNTAINS>
 <resource       production   99 0    CARNIVOREMEAT>
 <resource       production   8  0    DRAGON_BLOOD>
 <resource       production   20 1    LEATHER>
 <resource       desire       1 -3    DANGER>
 <resource       desire       1 -3    HOUSES>
 <resource       desire       1 -3    WATER>
-<resource       desire       1 -3    MOUNTAINS>
-<resource       desire       1  1    GOLD>
+<resource       desire      10  2    GOLD>
+<resource       desire      10  2    JEWELS>
+<resource       desire      10  2    MAGIC>
 <friends 545>
 <friends 578>
 <friends 579>
@@ -8554,6 +8610,7 @@
 <regionlimit    { FORESTNEARTOWN 5 FORESTNOTNEARTOWN 20 DARKFOREST 25 DARKERFOREST 30 ZOO_FOREST 1 GRIZZLYSMALL 3 GRIZZLYMEDIUM 8 GRIZZLYLARGE 15 WINDFOREST 5 } >
 <sex            OTHER>
 <name           546>
+<objvar         int predator 1>
 <corpsename     "grizzly bear">
 <alignment      NEUTRAL>
 <notoriety      -125>
@@ -8588,6 +8645,7 @@
 <resource       production  16  0    FUR>
 <resource       desire       1 -3    DANGER>
 <resource       desire       1  -3    HOUSES>
+<resource       desire       5  1    HONEY>
 <@@@ END @@@>
 <547>
 # polar bear    Difficulty 5
@@ -8597,6 +8655,7 @@
 <regionlimit    { ARCTIC 40 ZOO_ARCTIC 1 PBEARSMALL 6 PBEARMEDIUM 14 PBEARLARGE 24 } >
 <sex            OTHER>
 <name           547>
+<objvar         int predator 1>
 <corpsename     "polar bear">
 <alignment      NEUTRAL>
 <hue            white_colors>
@@ -8640,6 +8699,9 @@
 <regionlimit    { MGOATSMALL 9 MGOATMEDIUM 15 MGOATLARGE 25 FORESTNOTNEARTOWN 55 MOUNTAIN 25 } >
 <sex            OTHER>
 <name           548>
+<objvar         int foddertype 2>
+<objvar         int aversionPower 3>
+<objvar         int aversionRepute 0>
 <corpsename     "mountain goat">
 <alignment      NEUTRAL>
 <objvar         int petCanTame   20>
@@ -9343,6 +9405,8 @@
 <regionlimit    { DARKFOREST 15 DARKERFOREST 15 } >
 <sex            OTHER>
 <name           565>
+<objvar         int predator 1>
+<objvar         int packing 1>
 <corpsename     "dire wolf">
 <alignment      EVIL>
 <notoriety      -125>
@@ -9376,6 +9440,7 @@
 <resource       desire       1 -3    DANGER>
 <resource       desire       1 -3    HOUSES>
 <resource       desire       3  1    SELF>
+<resource       desire       1 -6    CARNIVOREMEAT>
 <@@@ END @@@>
 <566>
 # snow leopard  Difficulty 3
@@ -9385,6 +9450,7 @@
 <regionlimit    { ARCTIC 25 ZOO_ARCTIC 1 SLEOPARDSMALL 5 SLEOPARDMEDIUM 10 SLEOPARD 15 } >
 <sex            OTHER>
 <name           566>
+<objvar         int predator 2>
 <corpsename     "snow leopard>
 <hue            white_colors>
 <alignment      NEUTRAL>
@@ -9428,6 +9494,8 @@
 <regionlimit    { ARCTIC 30 ZOO_ARCTIC 1 WWOLFSMALL 5 WWOLFMEDIUM 10 WWOLFLARGE 15 } >
 <sex            OTHER>
 <name           568>
+<objvar         int predator 1>
+<objvar         int packing 1>
 <corpsename     "white wolf">
 <alignment      NEUTRAL>
 <hue            white_colors>
@@ -9461,6 +9529,7 @@
 <resource       desire       1 -3    HOUSES>
 <resource       desire       5  1    SELF>
 <resource       desire       1  1    SNOW>
+<resource       desire       1 -6    CARNIVOREMEAT>
 <@@@ END @@@>
 <569>
 # grey wolf     Difficulty 3
@@ -9470,6 +9539,8 @@
 <regionlimit    { DARKERFOREST 20 DARKFOREST 25 FORESTNOTNEARTOWN 30 ZOO_FOREST 1 GWOLFSMALL 5 GWOLFMEDIUM 10 GWOLFLARGE 15 } >
 <sex            OTHER>
 <name           569>
+<objvar         int predator 1>
+<objvar         int packing 1>
 <corpsename     "grey wolf">
 <alignment      NEUTRAL>
 <hue            grey_colors>
@@ -9503,6 +9574,7 @@
 <resource       desire       1 -3    DANGER>
 <resource       desire       1 -3    HOUSES>
 <resource       desire       5  1    SELF>
+<resource       desire       1 -6    CARNIVOREMEAT>
 <@@@ END @@@>
 <570>
 # magpie        Difficulty 1
@@ -9512,6 +9584,8 @@
 <regionlimit    { CITY 5 NEWBIE 10 } >
 <sex            OTHER>
 <name           570>
+<objvar         int scavenger 1>
+<objvar         int flying 1>
 <corpsename     magpie>
 <alignment      NEUTRAL>
 <hue            black_colors>
@@ -9562,6 +9636,8 @@
 <regionlimit    { WHEAT 9 FORESTNEARTOWN 7 FORESTNOTNEARTOWN 9 CEMETERY 9 NEWBIE 9 WINDFOREST 7 } >
 <sex            OTHER>
 <name           571>
+<objvar         int scavenger 1>
+<objvar         int flying 1>
 <corpsename     crow>
 <alignment      NEUTRAL>
 <hue            black_colors>
@@ -9613,6 +9689,9 @@
 <regionlimit    { DESERT 40 ZOO_DESERT 1 JRABBITSMALL 8 JRABBITMEDIUM 20 JRABBITLARGE 40 FORESTNOTNEARTOWN 20 } >
 <sex            OTHER>
 <name           572>
+<objvar         int foddertype 1>
+<objvar         int aversionPower 2>
+<objvar         int aversionRepute 0>
 <corpsename     "jack rabbit">
 <alignment      NEUTRAL>
 <hue            brown_colors>
@@ -9692,6 +9771,9 @@
 <regionlimit    { DARKFOREST 20 DARKERFOREST 20 FORESTNOTNEARTOWN 20 FORESTNEARTOWN 5 PLAINS 25 ZOO_FOREST 1 ZOO_PLAINS 1 BSTAGSMALL 10 BSTAGMEDIUM 20 BSTAGLARGE 40 NEWBIE 15 WINDFOREST 5 } >
 <sex            OTHER>
 <name           576>
+<objvar         int foddertype 2>
+<objvar         int aversionPower 3>
+<objvar         int aversionRepute 0>
 <corpsename     deer>
 <alignment      NEUTRAL>
 <objvar         int petCanTame   70>
@@ -10652,6 +10734,9 @@
 <notoriety      -125>
 <hue            { 0 0 1 1105 1110 1 34 39 1 }  >
 <objvar         int spellCastersLevel 8>
+<objvar         int predator 3>
+<objvar         int flying 1>
+<objvar         int hoarder 1>
 <script         dragonai>
 <script         spellai>
 <script         monster>
@@ -10684,16 +10769,19 @@
 <eq             { random_jewel 1 0 1 } 0 0 1 SELFCONTAINED>
 <eq             { random_jewel 1 0 1 } 0 0 1 SELFCONTAINED>
 <resource       food         80 3    MEAT>
+<resource       food         40 3    CARNIVOREMEAT>
 <resource       shelter     576 1    CAVES>
 <resource       shelter     288 1    DUNGEONS>
+<resource       shelter     288 1    MOUNTAINS>
 <resource       production   99 0    CARNIVOREMEAT>
 <resource       production   8  0    DRAGON_BLOOD>
 <resource       production   20 1    LEATHER>
 <resource       desire       1 -3    DANGER>
 <resource       desire       1 -3    HOUSES>
 <resource       desire       1 -3    WATER>
-<resource       desire       1 -3    MOUNTAINS>
-<resource       desire       1  1    GOLD>
+<resource       desire      10  2    GOLD>
+<resource       desire      10  2    JEWELS>
+<resource       desire      10  2    MAGIC>
 <friends 545>
 <friends 578>
 <friends 579>
