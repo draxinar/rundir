@@ -66,12 +66,6 @@ function string myGuildTitle() {
 	return(x);
 }
 
-trigger creation {
-	attachScript(this, "tutwisp");
-	Q4TI(this);
-	return(0x01);
-}
-
 function void Q4TI(obj this) {
 	loc Q55H = 0x00, 0x00, (0x00 - 0x50);
 	if (!hasObjVar(this, "guildstoneId")) {
