@@ -10,7 +10,7 @@ trigger enterrange(0x01) {
 	if (Q59R == Q4NZ) {
 		Q648 = 0x157A, 0x023A, 0x3B;
 	}
-	if (Q59R == Q4NZ) {
+	if (Q59R == Q4O0) {
 		Q648 = 0x158E, 0x02A0, 0x14;
 	}
 	if (Q59R == Q54L) {
