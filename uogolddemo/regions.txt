@@ -237,7 +237,7 @@ version 64207
  1860  1492  1602     8    19    21    60            0 INN_BRITAIN_1 0 0 0 0 0 Sweet Dreams in Britain
  1861  1499  1608     8    18    21    60            0 INN_BRITAIN_1 0 0 0 0 0 Sweet Dreams in Britain
  1862  1492  1619     7     6    40    60            0 INN_BRITAIN_1 0 0 0 0 0 Sweet Dreams in Britain
- 1880  1468  1592    12    12    20    40            0 BOWYER_BRITAIN 0 0 0 0 0 Quality Fletching in Britain
+ 1880  1468  1576    11     8    20    40            0 BOWYER_BRITAIN 0 0 0 0 0 Quality Fletching in Britain
  1890  1468  1592    17     8    20    40            0 MERCHANTGUILD_BRITAIN 0 0 0 0 0 Merchants' Guild in Britain
  1900  1436  1646    16     8    10    30            0 ARMORER_BRITAIN_2 0 0 0 0 0 Heavy Metal Armorer in Britain
  1910  1450  1678     8    16     0    20            0 JEWELER_BRITAIN_1 0 0 0 0 0 Premier Gems in Britain
@@ -263,7 +263,7 @@ version 64207
  2067  1639  1575    10    10     0    20            0 PEASANTSMALL_BRITAIN_1 0 0 0 0 0 a house in Britain
  2085  1486  1684     8     8    20    40            0 TAVERN_BRITAIN_1 0 0 0 0 0 The Blue Boar in Britain
  2086  1494  1676     8    24    20    40            0 TAVERN_BRITAIN_1 0 0 0 0 0 The Blue Boar in Britain
- 2100  1448  1710     8     8     0    20            0 BUTCHER_BRITAIN 0 0 0 0 0 The Cleaver in Britain
+ 2100  1447  1719    17     9     0    20            0 BUTCHER_BRITAIN 0 0 0 0 0 The Cleaver in Britain
  2110  1492  1713     8    11     7    17            0 LIBRARY_BRITAIN_2 0 0 0 0 0 The First Library of Britain
  2120  1608  1584    24     8     0    20            0 TAVERN_BRITAIN_3 0 0 0 0 0 The Salty Dog in Britain
  2121  1616  1576     8     8     0    20            0 TAVERN_BRITAIN_3 0 0 0 0 0 The Salty Dog in Britain
