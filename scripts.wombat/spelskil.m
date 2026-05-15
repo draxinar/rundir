@@ -687,7 +687,7 @@ function string Q4T5(int Q5UT) {
 	return(name);
 }
 
-function string Q4T0(int Q5UT) {
+function string getSpellName(int Q5UT) {
 	string name;
 	switch(Q5UT) {
 	case 0x00

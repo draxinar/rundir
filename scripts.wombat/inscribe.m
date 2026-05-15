@@ -75,7 +75,7 @@ function int Q65B(obj user, obj usedon) {
 				Q5UP++;
 				continue;
 			}
-			Q5X2 = Q4T0(Q5UU);
+			Q5X2 = getSpellName(Q5UU);
 			switch(Q5US) {
 			case 0x01
 				appendToList(Q4PF, Q5UU + 0x2080);
