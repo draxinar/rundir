@@ -101,7 +101,7 @@ function int Q42S(obj Q4XN) {
 	return(Q5US);
 }
 
-function int Q4SY(int num) {
+function int getSpellCircle2(int num) {
 	return((num / 0x08) + 0x01);
 }
 
@@ -190,7 +190,7 @@ function int Q4LU(obj user, loc usedon, int Q5UX, int Q50V) {
 		}
 	}
 	Q662(user, 0x00);
-	int Q5US = Q4SY(Q5UX);
+	int Q5US = getSpellCircle2(Q5UX);
 	int Q55B = getSpellCircleManaCost(Q5US);
 	if (!canCastSpellsHere(user, usedon, Q55B)) {
 		return(0x00);
@@ -1947,7 +1947,7 @@ function void Q4M9(obj spell, obj caster) {
 		return();
 	}
 	int Q5UX = Q4T2(spell);
-	int Q5US = Q4SY(Q5UX);
+	int Q5US = getSpellCircle2(Q5UX);
 	int Q55B = getSpellCircleManaCost(Q5US);
 	if (!Q49Q(caster, Q55B)) {
 		return();

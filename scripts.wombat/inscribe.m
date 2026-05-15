@@ -437,7 +437,7 @@ function void Q4YH(int Q5UT) {
 		systemMessage(Q62D, "You lack the necessary reagents to inscribe this spell.");
 		return();
 	}
-	int Q5US = Q4SY(Q5UT);
+	int Q5US = getSpellCircle2(Q5UT);
 	int Q55B = getSpellCircleManaCost(Q5US);
 	if (canCastSpellsHere(Q62D, Q66U, Q55B)) {
 		loseMana(Q62D, Q55B);
