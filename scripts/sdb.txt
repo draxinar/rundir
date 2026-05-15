@@ -6209,7 +6209,7 @@ getResourceName
 getResourcesOnObj
 getSatiety
 getSpellScriptsShifted
-Q4SR
+getSpellScripts
 Q4SS
 getScripts
 getSex
