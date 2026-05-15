@@ -6231,7 +6231,7 @@ Q4SX
 Q4SY
 Q4SZ
 getSpellName
-Q4T1
+getSpellCircle
 Q4T2
 Q4T3
 Q4T4
