@@ -76,7 +76,7 @@ function int isScroll() {
 	return(Q4ZN(this));
 }
 
-function int Q41P(obj user, int Q4EF) {
+function int userHasEnoughManaForSpell(obj user, int Q4EF) {
 	if (Q4EF > (getCurMana(user))) {
 		barkToHued(user, user, 0x22, "Insufficient mana for this spell.");
 		return(0x00);
@@ -164,7 +164,7 @@ function int Q49Q(obj user, int Q55B) {
 			return(0x00);
 		}
 	}
-	if (!Q41P(user, Q55B)) {
+	if (!userHasEnoughManaForSpell(user, Q55B)) {
 		barkToHued(user, user, 0x22, "Not enough mana to cast this spell.");
 		return(0x00);
 	}
