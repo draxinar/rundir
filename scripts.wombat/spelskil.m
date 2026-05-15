@@ -488,7 +488,7 @@ function void Q4SL(list Q5LQ, int Q5UT) {
 	return();
 }
 
-function string Q4T5(int Q5UT) {
+function string getSpellWords(int Q5UT) {
 	string name;
 	switch(Q5UT) {
 	case 0x00
@@ -1957,7 +1957,7 @@ function void Q4M9(obj spell, obj caster) {
 	int Q4H9 = Q4SV(Q5US, Q5UX);
 	shortcallback(caster, Q4H9, 0x80);
 	shortcallback(caster, 0x00, 0x82);
-	bark(caster, Q4T5(Q4T2(spell)));
+	bark(caster, getSpellWords(Q4T2(spell)));
 	return();
 }
 
