@@ -4811,7 +4811,7 @@ Q41L
 Q41M
 Q41N
 Q41O
-Q41P
+userHasEnoughManaForSpell
 Q41Q
 Q41R
 Q41S
