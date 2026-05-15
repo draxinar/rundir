@@ -1085,7 +1085,7 @@ function string Q4SQ(int Q5UT) {
 	return(name);
 }
 
-function int Q4T1(int num) {
+function int getSpellCircle(int num) {
 	return((num / 0x08) + 0x01);
 }
 

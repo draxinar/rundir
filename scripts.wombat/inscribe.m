@@ -442,8 +442,8 @@ function void Q4YH(int Q5UT) {
 	if (Q49R(Q62D, Q66U, Q55B)) {
 		loseMana(Q62D, Q55B);
 		int Q4OU = 0x00;
-		int Q4IA = Q4SW(Q4T1(Q5UT));
-		if (!Q4A8(Q62D, Q4T1(Q5UT))) {
+		int Q4IA = Q4SW(getSpellCircle(Q5UT));
+		if (!Q4A8(Q62D, getSpellCircle(Q5UT))) {
 			Q4OU = 0x01;
 		}
 		if (!Q4OU) {
