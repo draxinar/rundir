@@ -6227,7 +6227,7 @@ Q4SU
 getSmallestArea
 Q4SV
 Q4SW
-Q4SX
+getSpellCircleManaCost
 Q4SY
 Q4SZ
 getSpellName
