@@ -1110,7 +1110,7 @@ function int Q4T4(int num) {
 	return(Q4T3(num - 0x01));
 }
 
-function string Q4SR(int Q5UT) {
+function string getSpellScripts(int Q5UT) {
 	return(getSpellScriptsShifted(Q5UT - 0x01));
 }
 
@@ -1372,7 +1372,7 @@ function void Q41U(obj scroll) {
 		deleteObject(scroll);
 		return();
 	}
-	Q41T(scroll, Q4SR(Q57F));
+	Q41T(scroll, getSpellScripts(Q57F));
 	return();
 }
 
