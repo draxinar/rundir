@@ -6208,7 +6208,7 @@ getResource
 getResourceName
 getResourcesOnObj
 getSatiety
-Q4SQ
+getSpellScriptsShifted
 Q4SR
 Q4SS
 getScripts

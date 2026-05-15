@@ -886,7 +886,7 @@ function string getSpellName(int Q5UT) {
 	return(name);
 }
 
-function string Q4SQ(int Q5UT) {
+function string getSpellScriptsShifted(int Q5UT) {
 	string name;
 	switch(Q5UT) {
 	case 0x00
@@ -1111,7 +1111,7 @@ function int Q4T4(int num) {
 }
 
 function string Q4SR(int Q5UT) {
-	return(Q4SQ(Q5UT - 0x01));
+	return(getSpellScriptsShifted(Q5UT - 0x01));
 }
 
 function int Q5YC(obj user, obj Q5UY) {
