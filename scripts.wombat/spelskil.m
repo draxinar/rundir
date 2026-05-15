@@ -174,7 +174,7 @@ function int Q49Q(obj user, int Q55B) {
 	return(0x01);
 }
 
-function int Q49R(obj user, loc usedon, int Q55B) {
+function int canCastSpellsHere(obj user, loc usedon, int Q55B) {
 	loc Q671 = getLocation(user);
 	if ((!areSpellsOkay(usedon)) || (!areSpellsOkay(Q671))) {
 		barkToHued(user, user, 0x22, "You can not cast spells here.");
@@ -192,7 +192,7 @@ function int Q4LU(obj user, loc usedon, int Q5UX, int Q50V) {
 	Q662(user, 0x00);
 	int Q5US = Q4SY(Q5UX);
 	int Q55B = Q4SX(Q5US);
-	if (!Q49R(user, usedon, Q55B)) {
+	if (!canCastSpellsHere(user, usedon, Q55B)) {
 		return(0x00);
 	}
 	int Q5TG = 0x00;
