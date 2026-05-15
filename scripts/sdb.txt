@@ -6235,7 +6235,7 @@ Q4T1
 Q4T2
 Q4T3
 Q4T4
-Q4T5
+getSpellWords
 Q4T6
 Q4T7
 getStatAttributeMax
