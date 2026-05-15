@@ -66,7 +66,7 @@ function int Q65B(obj user, obj usedon) {
 			Q626 = Q5V0[Q5UP];
 			Q5UU = Q4T2(Q626);
 			Q5US = Q42S(Q626);
-			Q627 = Q4SX(Q5US);
+			Q627 = getSpellCircleManaCost(Q5US);
 			if (!Q4A8(Q62D, Q5US)) {
 				Q5UP++;
 				continue;
@@ -438,7 +438,7 @@ function void Q4YH(int Q5UT) {
 		return();
 	}
 	int Q5US = Q4SY(Q5UT);
-	int Q55B = Q4SX(Q5US);
+	int Q55B = getSpellCircleManaCost(Q5US);
 	if (canCastSpellsHere(Q62D, Q66U, Q55B)) {
 		loseMana(Q62D, Q55B);
 		int Q4OU = 0x00;
