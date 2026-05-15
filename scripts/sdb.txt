@@ -5200,7 +5200,7 @@ campfire
 canBeFreelyAggressedBy
 Q49P
 Q49Q
-Q49R
+canCastSpellsHere
 Q49S
 Q49T
 Q49U
