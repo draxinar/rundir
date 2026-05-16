@@ -79,7 +79,7 @@ function void setComcrystalStatus(obj it, int status) {
 	return();
 }
 
-function int Q63I(obj user, obj Q4XN) {
+function int toggleComcrystal(obj user, obj Q4XN) {
 	if (Q454) {
 		setComcrystalStatus(Q4XN, 0x00);
 		systemMessage(user, "You turn the crystal off.");
@@ -125,7 +125,7 @@ function int Q5QW(obj sender, obj speaker, string arg) {
 		obj Q5R3 = Q535[Q4EJ];
 		multimessage(Q5R3, "comspeech", Q5QZ);
 		if (modifyComcrystalCharges((0x00 - 0x01)) == 0x00) {
-			Q63I(speaker, sender);
+			toggleComcrystal(speaker, sender);
 			break;
 		}
 	}
@@ -294,7 +294,7 @@ trigger targetobj {
 		return(0x00);
 	}
 	if (usedon == this) {
-		Q63I(user, this);
+		toggleComcrystal(user, this);
 	} else {
 		if (isComcrystal(usedon)) {
 			Q656(user, usedon);
