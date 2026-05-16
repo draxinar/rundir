@@ -6647,7 +6647,7 @@ isShopkeeper
 isSlashing
 Q504
 isSpellbook
-Q505
+isSpellbook2
 Q506
 Q507
 Q508
