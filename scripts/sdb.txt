@@ -5199,7 +5199,7 @@ Q49O
 campfire
 canBeFreelyAggressedBy
 Q49P
-Q49Q
+canCastSpell
 canCastSpellsHere
 Q49S
 Q49T
