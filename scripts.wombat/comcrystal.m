@@ -57,7 +57,7 @@ function int modifyComcrystalCharges(int Q463) {
 	return(charges);
 }
 
-function int Q4YY(obj Q4XN) {
+function int isComcrystal(obj Q4XN) {
 	int Q5NC = hasObjVar(Q4XN, "isComCrystal");
 	return(Q5NC);
 }
@@ -296,7 +296,7 @@ trigger targetobj {
 	if (usedon == this) {
 		Q63I(user, this);
 	} else {
-		if (Q4YY(usedon)) {
+		if (isComcrystal(usedon)) {
 			Q656(user, usedon);
 		} else {
 			systemMessage(user, "You can not use this crystal on that.");
