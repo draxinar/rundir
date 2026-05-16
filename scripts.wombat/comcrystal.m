@@ -73,7 +73,7 @@ function void Q5RA(obj it, int status) {
 	return();
 }
 
-function void Q5R8(obj it, int status) {
+function void setComcrystalStatus(obj it, int status) {
 	Q454 = status;
 	Q5RA(it, Q454);
 	return();
@@ -81,10 +81,10 @@ function void Q5R8(obj it, int status) {
 
 function int Q63I(obj user, obj Q4XN) {
 	if (Q454) {
-		Q5R8(Q4XN, 0x00);
+		setComcrystalStatus(Q4XN, 0x00);
 		systemMessage(user, "You turn the crystal off.");
 	} else {
-		Q5R8(Q4XN, 0x01);
+		setComcrystalStatus(Q4XN, 0x01);
 		systemMessage(user, "You turn the crystal on.");
 	}
 	return(Q454);
@@ -264,7 +264,7 @@ trigger creation {
 	Q55T = 0x07D0;
 	comcrystalSetCharges2(0x01F4);
 	setObjVar(this, "isComCrystal", 0x01);
-	Q5R8(this, 0x00);
+	setComcrystalStatus(this, 0x00);
 	Q4CR();
 	Q5RE();
 	attachScript(this, "speechrelay");
