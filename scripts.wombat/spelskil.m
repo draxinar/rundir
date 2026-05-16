@@ -136,7 +136,7 @@ function int getSpellCircleManaCost(int Q52T) {
 	return(Q4EF);
 }
 
-function int Q4ZA(obj it) {
+function int isHandFree(obj it) {
 	if (it == NULL()) {
 		return(0x01);
 	}
@@ -149,17 +149,17 @@ function int Q4ZA(obj it) {
 function int Q49Q(obj user, int Q55B) {
 	obj rightHand = getItemAtSlot(user, 0x01);
 	obj leftHand = getItemAtSlot(user, 0x02);
-	if (!Q4ZA(rightHand)) {
+	if (!isHandFree(rightHand)) {
 		barkToHued(user, user, 0x22, "Your hands must be free to cast spells.");
 		return(0x00);
 	}
 	if (getCompileFlag(0x01)) {
-		if (!Q4ZA(leftHand)) {
+		if (!isHandFree(leftHand)) {
 			barkToHued(user, user, 0x22, "Your hands must be free to cast spells.");
 			return(0x00);
 		}
 	} else {
-		if ((!isUsingVirtueShield(user)) && (!Q4ZA(leftHand))) {
+		if ((!isUsingVirtueShield(user)) && (!isHandFree(leftHand))) {
 			barkToHued(user, user, 0x22, "Your hands must be free to cast spells.");
 			return(0x00);
 		}

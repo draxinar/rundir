@@ -6582,7 +6582,7 @@ Q4Z8
 Q4Z9
 isHair
 isHidden
-Q4ZA
+isHandFree
 isHousingOkay
 isHuman
 isHumanBodyType
