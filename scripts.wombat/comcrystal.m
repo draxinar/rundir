@@ -62,7 +62,7 @@ function int isComcrystal(obj Q4XN) {
 	return(Q5NC);
 }
 
-function void Q5RA(obj it, int status) {
+function void setCrystalType(obj it, int status) {
 	int newType = 0x1ECD;
 	if (status) {
 		newType = 0x1ED0;
@@ -75,7 +75,7 @@ function void Q5RA(obj it, int status) {
 
 function void setComcrystalStatus(obj it, int status) {
 	Q454 = status;
-	Q5RA(it, Q454);
+	setCrystalType(it, Q454);
 	return();
 }
 

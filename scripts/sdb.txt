@@ -7895,7 +7895,7 @@ setBehavior
 setBounty
 setConvoRet
 setCriminal
-Q5RA
+setCrystalType
 setCurFatigue
 setCurHP
 setCurMana
