@@ -17,7 +17,7 @@ function int comcrystalHasCharges() {
 	return(0x00);
 }
 
-function int Q42M() {
+function int comcrystalGetCharges() {
 	return(charges);
 }
 
@@ -26,7 +26,7 @@ function void Q41H(obj Q4XN) {
 	if (hasObjVar(Q4XN, "mybasevalue")) {
 		value = getObjVar(Q4XN, "mybasevalue");
 	}
-	int Q4AX = Q42M();
+	int Q4AX = comcrystalGetCharges();
 	int Q5BE = 0x00;
 	if (Q4AX < 0x00) {
 		Q5BE = 0x03E7;
@@ -150,7 +150,7 @@ function string Q4S3() {
 	}
 	concat(name, "crystal of communication");
 	concat(name, " with ");
-	int Q4AX = Q42M();
+	int Q4AX = comcrystalGetCharges();
 	if (Q4AX < 0x00) {
 		concat(name, "infinite");
 	} else {
@@ -239,11 +239,11 @@ function int Q4CL(obj it, obj user) {
 	if (power <= 0x00) {
 		return(0x00);
 	}
-	if (Q42M() < 0x00) {
+	if (comcrystalGetCharges() < 0x00) {
 		systemMessage(user, "This crystal can not be recharged.");
 		return(0x00);
 	}
-	if (Q42M() >= Q55T) {
+	if (comcrystalGetCharges() >= Q55T) {
 		systemMessage(user, "This crystal is already fully charged.");
 		return(0x00);
 	}
