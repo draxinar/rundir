@@ -21,7 +21,7 @@ function int comcrystalGetCharges() {
 	return(charges);
 }
 
-function void Q41H(obj Q4XN) {
+function void comcrystalRecalculateBaseValue(obj Q4XN) {
 	int value = 0x00;
 	if (hasObjVar(Q4XN, "mybasevalue")) {
 		value = getObjVar(Q4XN, "mybasevalue");
@@ -42,7 +42,7 @@ function void Q41H(obj Q4XN) {
 
 function void Q43X(int newcharges) {
 	charges = newcharges;
-	Q41H(this);
+	comcrystalRecalculateBaseValue(this);
 	return();
 }
 
@@ -53,7 +53,7 @@ function void Q43Z(int newcharges) {
 
 function int Q580(int Q463) {
 	charges = charges + Q463;
-	Q41H(this);
+	comcrystalRecalculateBaseValue(this);
 	return(charges);
 }
 
