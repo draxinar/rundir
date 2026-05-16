@@ -100,7 +100,7 @@ function int linkComcrystal(obj user, obj Q4XN) {
 	return(0x01);
 }
 
-function int Q4BE(obj Q4XN, obj user) {
+function int checkComcrystalCharges(obj Q4XN, obj user) {
 	if (!comcrystalHasCharges()) {
 		systemMessage(user, "This crystal is out of charges.");
 		return(0x00);
@@ -290,7 +290,7 @@ trigger targetobj {
 	if (Q4CL(usedon, user)) {
 		return(0x00);
 	}
-	if (!Q4BE(this, user)) {
+	if (!checkComcrystalCharges(this, user)) {
 		return(0x00);
 	}
 	if (usedon == this) {
