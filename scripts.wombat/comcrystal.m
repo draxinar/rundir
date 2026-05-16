@@ -40,14 +40,14 @@ function void comcrystalRecalculateBaseValue(obj Q4XN) {
 	return();
 }
 
-function void Q43X(int newcharges) {
+function void comcrystalSetCharges(int newcharges) {
 	charges = newcharges;
 	comcrystalRecalculateBaseValue(this);
 	return();
 }
 
 function void Q43Z(int newcharges) {
-	Q43X(newcharges);
+	comcrystalSetCharges(newcharges);
 	return();
 }
 
@@ -136,7 +136,7 @@ function void Q4CR() {
 	if (hasObjVar(this, "newcharges")) {
 		int newcharges = getObjVar(this, "newcharges");
 		removeObjVar(this, "newcharges");
-		Q43X(newcharges);
+		comcrystalSetCharges(newcharges);
 	}
 	return();
 }
@@ -254,7 +254,7 @@ function int Q4CL(obj it, obj user) {
 	} else {
 		systemMessage(user, "You recharge the crystal.");
 	}
-	Q43X(num);
+	comcrystalSetCharges(num);
 	Q442(it);
 	Q5RE();
 	return(0x01);
