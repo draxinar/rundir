@@ -46,7 +46,7 @@ function void comcrystalSetCharges(int newcharges) {
 	return();
 }
 
-function void Q43Z(int newcharges) {
+function void comcrystalSetCharges2(int newcharges) {
 	comcrystalSetCharges(newcharges);
 	return();
 }
@@ -262,7 +262,7 @@ function int Q4CL(obj it, obj user) {
 
 trigger creation {
 	Q55T = 0x07D0;
-	Q43Z(0x01F4);
+	comcrystalSetCharges2(0x01F4);
 	setObjVar(this, "isComCrystal", 0x01);
 	Q5R8(this, 0x00);
 	Q4CR();
