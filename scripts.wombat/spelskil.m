@@ -1933,12 +1933,12 @@ function int Q4SV(int Q5US, int Q5UX) {
 	return(Q5US + 0x01);
 }
 
-function int Q507(obj Q68S) {
+function int isTargetting(obj Q68S) {
 	return(hasScript(Q68S, "targeting"));
 }
 
 function void Q4M9(obj spell, obj caster) {
-	if (Q4YT(caster) || Q507(caster)) {
+	if (Q4YT(caster) || isTargetting(caster)) {
 		systemMessage(caster, "You are already casting a spell.");
 		return();
 	}
@@ -2080,7 +2080,7 @@ function int Q657(obj user, int objtype, loc place, int Q67X, int Q5EC, int wall
 }
 
 function void Q5RD(obj Q68S, obj Q5UY) {
-	if (!Q507(Q68S)) {
+	if (!isTargetting(Q68S)) {
 		attachScript(Q68S, "targeting");
 	}
 	setObjVar(Q68S, "targetingForObj", Q5UY);
@@ -2088,7 +2088,7 @@ function void Q5RD(obj Q68S, obj Q5UY) {
 }
 
 function int Q4C8(obj Q68S, obj Q5UY) {
-	if (!Q507(Q68S)) {
+	if (!isTargetting(Q68S)) {
 		return(0x00);
 	}
 	obj Q4D2;

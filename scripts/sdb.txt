@@ -6649,7 +6649,7 @@ Q504
 isSpellbook
 isSpellbook2
 Q506
-Q507
+isTargetting
 Q508
 Q509
 Q50A
