@@ -51,7 +51,7 @@ function void comcrystalSetCharges2(int newcharges) {
 	return();
 }
 
-function int Q580(int Q463) {
+function int modifyComcrystalCharges(int Q463) {
 	charges = charges + Q463;
 	comcrystalRecalculateBaseValue(this);
 	return(charges);
@@ -124,7 +124,7 @@ function int Q5QW(obj sender, obj speaker, string arg) {
 	for (Q4EJ = 0x00; Q4EJ < num; Q4EJ++) {
 		obj Q5R3 = Q535[Q4EJ];
 		multimessage(Q5R3, "comspeech", Q5QZ);
-		if (Q580((0x00 - 0x01)) == 0x00) {
+		if (modifyComcrystalCharges((0x00 - 0x01)) == 0x00) {
 			Q63I(speaker, sender);
 			break;
 		}
