@@ -146,7 +146,7 @@ function int isHandFree(obj it) {
 	return(0x00);
 }
 
-function int Q49Q(obj user, int Q55B) {
+function int canCastSpell(obj user, int Q55B) {
 	obj rightHand = getItemAtSlot(user, 0x01);
 	obj leftHand = getItemAtSlot(user, 0x02);
 	if (!isHandFree(rightHand)) {
@@ -180,7 +180,7 @@ function int canCastSpellsHere(obj user, loc usedon, int Q55B) {
 		barkToHued(user, user, 0x22, "You can not cast spells here.");
 		return(0x00);
 	}
-	return(Q49Q(user, Q55B));
+	return(canCastSpell(user, Q55B));
 }
 
 function int Q4LU(obj user, loc usedon, int Q5UX, int Q50V) {
@@ -1949,7 +1949,7 @@ function void Q4M9(obj spell, obj caster) {
 	int Q5UX = Q4T2(spell);
 	int Q5US = getSpellCircle2(Q5UX);
 	int Q55B = getSpellCircleManaCost(Q5US);
-	if (!Q49Q(caster, Q55B)) {
+	if (!canCastSpell(caster, Q55B)) {
 		return();
 	}
 	setObjVar(caster, "spellObj", spell);
