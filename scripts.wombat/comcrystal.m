@@ -90,7 +90,7 @@ function int toggleComcrystal(obj user, obj Q4XN) {
 	return(Q454);
 }
 
-function int Q656(obj user, obj Q4XN) {
+function int linkComcrystal(obj user, obj Q4XN) {
 	if (isInList(Q535, Q4XN)) {
 		systemMessage(user, "This crystal is already linked with that crystal.");
 		return(0x00);
@@ -297,7 +297,7 @@ trigger targetobj {
 		toggleComcrystal(user, this);
 	} else {
 		if (isComcrystal(usedon)) {
-			Q656(user, usedon);
+			linkComcrystal(user, usedon);
 		} else {
 			systemMessage(user, "You can not use this crystal on that.");
 		}
