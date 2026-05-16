@@ -10,7 +10,7 @@ function int Q42O() {
 	return(numInList(Q535));
 }
 
-function int Q431() {
+function int comcrystalHasCharges() {
 	if (charges != 0x00) {
 		return(0x01);
 	}
@@ -101,7 +101,7 @@ function int Q656(obj user, obj Q4XN) {
 }
 
 function int Q4BE(obj Q4XN, obj user) {
-	if (!Q431()) {
+	if (!comcrystalHasCharges()) {
 		systemMessage(user, "This crystal is out of charges.");
 		return(0x00);
 	}
@@ -109,7 +109,7 @@ function int Q4BE(obj Q4XN, obj user) {
 }
 
 function int Q5QW(obj sender, obj speaker, string arg) {
-	if (!Q431()) {
+	if (!comcrystalHasCharges()) {
 		return(0x00);
 	}
 	list Q5QZ;
