@@ -11,6 +11,6 @@ trigger creation {
 }
 
 trigger callback(0x48) {
-	Q5QJ(this);
+	destroyScroll(this);
 	return(0x00);
 }

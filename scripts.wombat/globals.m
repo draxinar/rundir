@@ -308,7 +308,7 @@ function void Q5RE(obj it, string desc) {
 	return();
 }
 
-function void Q5QJ(obj it) {
+function void destroyScroll(obj it) {
 	obj container = containedBy(it);
 	if (container == NULL()) {
 		destroyOne(it);
