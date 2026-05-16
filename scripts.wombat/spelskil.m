@@ -50,7 +50,7 @@ function int Q501(obj it) {
 	return(0x01);
 }
 
-function int Q505(obj it) {
+function int isSpellbook2(obj it) {
 	if (!isValid(it)) {
 		return(0x00)}
 	if (getObjType(it) == 0x0EFA) {
@@ -65,7 +65,7 @@ function int Q4ZN(obj it) {
 		if (container == NULL()) {
 			return(0x01);
 		}
-		if (!Q505(container)) {
+		if (!isSpellbook2(container)) {
 			return(0x01);
 		}
 	}
@@ -140,7 +140,7 @@ function int Q4ZA(obj it) {
 	if (it == NULL()) {
 		return(0x01);
 	}
-	if (Q505(it)) {
+	if (isSpellbook2(it)) {
 		return(0x01);
 	}
 	return(0x00);
