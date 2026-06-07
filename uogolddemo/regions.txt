@@ -598,7 +598,7 @@ version 64207
  4666  2976   632     8     8  -127   127            0 PROVISIONER_VESPER_1 0 0 0 0 0 The Adventurers Supplies in Vesper
  4680  2888   648     8    16  -127   127            0 ALCHEMIST_VESPER_1 0 0 0 0 0 The Bubbling Brew in Vesper
  4681  2880   648     8     8  -127   127            0 ALCHEMIST_VESPER_1 0 0 0 0 0 The Bubbling Brew in Vesper
- 4695  2912   664    16    16  -127   127            0 MAGE_VESPER_1 0 0 0 0 0 The Circles of Magic in Vesper
+ 4695  2912   664    16    16     0    39            0 MAGE_VESPER_1 0 0 0 0 0 The Circles of Magic in Vesper
  4705  2872   672    24     8  -127   127            0 BANK_VESPER 0 0 0 0 0 The Mint of Vesper
  4715  2872   680    16    16  -127   127            0 MINTER_VESPER 0 0 0 0 0 The Mint of Vesper
  4725  2872   720    16     8  -127   127            0 JEWELER_VESPER 0 0 0 0 0 The Shimmering Jewel in Vesper
@@ -938,7 +938,7 @@ version 64207
  7366  4624  1200     8    16     0    19            0 MAGEGUILD_MOONGLOW_2 0 0 0 0 0 Illusionist's Guild in Moonglow
  7380  4542   848     8    24  -127   127            0 MAGEGUILD_MOONGLOW_1 0 0 0 0 0 Encyclopedia Magicka in Moonglow
  7381  4534   856    24     8  -127   127            0 MAGEGUILD_MOONGLOW_1 0 0 0 0 0 Encyclopedia Magicka in Moonglow
- 7395  4672  1407    24     8  -127   127            0 MAGEGUILD_MOONGLOW_3 0 0 0 0 0 Sorcerer's Guild in Moonglow
+ 7395  4672  1407    24     8     0     5            0 MAGEGUILD_MOONGLOW_3 0 0 0 0 0 Sorcerer's Guild in Moonglow
  7396  4680  1415     8     8  -127   127            0 MAGEGUILD_MOONGLOW_3 0 0 0 0 0 Sorcerer's Guild in Moonglow
  7410  4459  1276    16    16  -127   127            0 JUSTICE_MOONGLOW_1 0 0 0 0 0 Moonglow Moongate
  7420  4527  1296    31    40  -127   127            0 CEMETERY_MOONGLOW 0 0 0 0 0 Moonglow Cemetery
@@ -1223,7 +1223,7 @@ version 64207
  8640  5637  1287   245   230  -127   127            0 DUNGN_FIRE 26 0 0 0 0 Fire Dungeon
  8641  5673  1395    40    40  -127   127            0 SLIMESMALL_DUNGN_FIRE 0 0 0 0 0
  8642  5675  1414    40    40  -127   127            0 SLIMESMALL_DUNGN_FIRE_2 0 0 0 0 0
- 8643  5660  1418    40    40  -127   127            0 MAGE_DUNGN_FIRE 0 0 0 0 0
+ 8643  5660  1418    40    40     0    43            0 MAGE_DUNGN_FIRE 0 0 0 0 0
  8644  5713  1413    40    40  -127   127            0 GIANTRATSMALL_DUNGN_FIRE 0 0 0 0 0
  8645  5767  1407    40    40  -127   127            0 LIZARDMANSMALL_DUNGN_FIRE 0 0 0 0 0
  8646  5702  1450    30    30  -127   127            0 FIREELEMENTAL_DUNGN_FIRE 0 0 0 0 0
@@ -1249,19 +1249,19 @@ version 64207
  8666  5689  1344    40    40  -127   127            0 GWOLFMEDIUM_DUNGN_FIRE_4 0 0 0 0 0
  8667  5688  1344     6     6  -127   127            0 DAEMON_DUNGN_FIRE_3 0 0 0 0 0
  8668  5648  1310    60    60  -127   127            0 GWOLFSMALL_DUNGN_FIRE_5 0 0 0 0 0
- 8669  5648  1360     6     6  -127   127            0 MAGE_DUNGN_FIRE_2 0 0 0 0 0
+ 8669  5648  1360     6     6     0    43            0 MAGE_DUNGN_FIRE_2 0 0 0 0 0
  8670  5649  1375    10    10  -127   127            0 MAGE_DUNGN_FIRE_3 0 0 0 0 0
  8671  5679  1377    20    20  -127   127            0 MAGE_DUNGN_FIRE_4 0 0 0 0 0
  8672  5646  1402    20    20  -127   127            0 MAGE_DUNGN_FIRE_5 0 0 0 0 0
- 8673  5648  1399     6     6  -127   127            0 MAGE_DUNGN_FIRE_6 0 0 0 0 0
- 8674  5640  1400     6     6  -127   127            0 MAGE_DUNGN_FIRE_7 0 0 0 0 0
+ 8673  5648  1399     6     6     0    43            0 MAGE_DUNGN_FIRE_6 0 0 0 0 0
+ 8674  5640  1400     6     6     0    43            0 MAGE_DUNGN_FIRE_7 0 0 0 0 0
  8675  5648  1405     6     6  -127   127            0 GWOLFSMALL_DUNGN_FIRE_6 0 0 0 0 0
- 8676  5648  1415     6     6  -127   127            0 MAGE_DUNGN_FIRE_8 0 0 0 0 0
- 8677  5645  1414    10    10  -127   127            0 MAGE_DUNGN_FIRE_9 0 0 0 0 0
- 8678  5632  1424    30    30  -127   127            0 MAGE_DUNGN_FIRE_10 0 0 0 0 0
- 8679  5646  1438    10    10  -127   127            0 MAGE_DUNGN_FIRE_11 0 0 0 0 0
- 8680  5646  1430    10    10  -127   127            0 MAGE_DUNGN_FIRE_12 0 0 0 0 0
- 8681  5638  1430    10    10  -127   127            0 MAGE_DUNGN_FIRE_13 0 0 0 0 0
+ 8676  5648  1415     6     6     0    43            0 MAGE_DUNGN_FIRE_8 0 0 0 0 0
+ 8677  5645  1414    10    10     0    43            0 MAGE_DUNGN_FIRE_9 0 0 0 0 0
+ 8678  5632  1424    30    30     0    43            0 MAGE_DUNGN_FIRE_10 0 0 0 0 0
+ 8679  5646  1438    10    10     0    43            0 MAGE_DUNGN_FIRE_11 0 0 0 0 0
+ 8680  5646  1430    10    10     0    43            0 MAGE_DUNGN_FIRE_12 0 0 0 0 0
+ 8681  5638  1430    10    10     0    43            0 MAGE_DUNGN_FIRE_13 0 0 0 0 0
  8682  5598  1399    80    80  -127   127            0 MAGE_DUNGN_FIRE_14 0 0 0 0 0
  8683  5649   134   243   249  -127   127            0 DUNGN_ICE 26 0 0 0 0 Ice Dungeon
  8684  5751   204    40    40  -127   127            0 OGRESMALL_DUNGN_ICE 0 0 0 0 0
@@ -1577,7 +1577,7 @@ version 64207
  9004  5281  3976    10    10  -127   127            0 MAGIC_DELUCIA 0 0 0 0 0
  9005  5626  3111   200   200  -127   127            0 EAGLESMALL_PAPUA 0 0 0 0 0
  9007  5664  3126    10    10  -127   127            0 BANK_PAPUA 0 0 0 0 0
- 9008  5726  3187    10    10  -127   127            0 MAGEGUILD_PAPUA 0 0 0 0 0
+ 9008  5726  3187    10    10     2     8            0 MAGEGUILD_PAPUA 0 0 0 0 0
  9009  5721  3238    10    10  -127   127            0 TINKERGUILD_PAPUA 0 0 0 0 0
  9010  5657  3145    10    10  -127   127            0 JEWELER_PAPUA 0 0 0 0 0
  9011  5666  3282    10    10  -127   127            0 STABLES_PAPUA 0 0 0 0 0
