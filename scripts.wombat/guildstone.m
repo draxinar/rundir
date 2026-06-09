@@ -3,12 +3,19 @@ inherits guildbase;
 member loc QGMasterLoc = 0x00, 0x00, (0x00 - 0x50);
 
 member obj QGMenuUser;
+
 member obj QGMenuTarget;
+
 member int QGMenuMode;
+
 member int QGMenuPage;
+
 member int QGTargetMode;
+
 member int QGPendingNoAbbr;
+
 member string QGPendingAbbr;
+
 member string QGPendingName;
 
 function string QGName() {
@@ -514,7 +521,7 @@ function int QGCanUseWeeklyChange(obj player, string varName, string changeName)
 	if (hasObjVar(this, varName)) {
 		int lastChange = getObjVar(this, varName);
 		int now = getTimeSecs();
-		if ((now - lastChange) < 604800) {
+		if ((now - lastChange) < 0x00093A80) {
 			systemMessage(player, "You may only change your guild " + changeName + " once per real-world week.");
 			return(0x00);
 		}
