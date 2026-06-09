@@ -9024,3 +9024,248 @@ dz
 "You can't practice on this while mounted."
 fillbookshelves
 "This doesn't belong to me, I'll have to steal it."
+QGMasterLoc
+QGMenuUser
+QGMenuTarget
+QGMenuMode
+QGMenuPage
+QGTargetMode
+QGPendingNoAbbr
+QGPendingAbbr
+QGPendingName
+QGName
+"a guild"
+QGAbbr
+"hasGuildAbbreviation"
+abbr
+QGWebsite
+"guildWebsite"
+"http://www.ultimaonline.com"
+site
+QGCharter
+"guildCharter"
+"No charter has been set."
+charter
+QGMasterTitle
+"guildmasterTitle"
+"Guildmaster"
+title
+QGEnsure
+"guildMembers"
+guildMembers
+"guildCandidates"
+guildCandidates
+"guildAccepted"
+guildAccepted
+"nextJoinOrder"
+QGNextOrder
+order
+QGFindMember
+members
+QGFindMemberByName
+memberName
+QGFindCandidate
+candidates
+candidate
+QGFindAccepted
+accepted
+QGMemberCount
+QGMemberObj
+index
+QGMemberOrder
+QGStoredLeader
+"guildLeader"
+leader
+QGFealtyRoot
+voter
+current
+seen
+next
+QGSupportCount
+QGRecalcLeader
+oldLeader
+best
+bestCount
+bestOrder
+QGRegister
+messageName
+QGClearPlayer
+QGSendUpdate
+emptyOpposing
+gone
+display
+opposingGuilds
+update
+QGUpdateAll
+QGNotifyMembers
+QGNotifyGlobal
+QGDisband
+QGAddMember
+record
+" has joined the guild."
+QGRemoveMember
+clearPlayer
+fealty
+fixed
+" is no longer a member of the guild."
+QGSetFealty
+changed
+QGSetTitle
+"'s guild title has changed."
+QGToggleAbbr
+"Your guild abbreviation will no longer be displayed."
+"Your guild abbreviation will now be displayed."
+QGConfirmMaster
+"Only the current guild leader may access guildmaster functions."
+QGShowMain
+QGCanUseWeeklyChange
+varName
+changeName
+lastChange
+now
+"You may only change your guild "
+" once per real-world week."
+QGListPages
+pageSize
+pages
+QGMemberDisplay
+QGMemberFealty
+QGFealtyName
+"(empty)"
+QGLeaderLabel
+"Guild Master"
+"Guild Mistress"
+QGStoneTitle
+QGPickerOption
+options
+QGOpenPicker
+dialogId
+"Return to the main menu."
+"Recruit someone into the guild."
+"View the current roster."
+"View the guild's charter."
+"Declare your fealty. You are currently loyal to "
+toggleText
+"Toggle showing the guild's abbreviation in your name to unguilded people. Currently "
+"on."
+"off."
+"Resign from the guild."
+"View list of candidates who have been sponsored to the guild."
+"Access Guild Master functions."
+"View list of guilds that "
+" has declared war on."
+QGShowGuildmaster
+"Set the guild name."
+"Set the guild's abbreviation."
+"Set the guild's charter."
+"Set the guild's website."
+"Dismiss a member."
+"Declare war."
+"Accept a candidate seeking membership."
+"Refuse a candidate seeking membership."
+"Set the guildmaster's title."
+"Grant a title to another member."
+" functions"
+QGShowRoster
+page
+totalPages
+"Previous page"
+"Next page"
+"Guild Roster"
+QGShowCandidates
+total
+"Sponsored: "
+"Accepted: "
+"Candidates"
+QGShowMemberPicker
+mode
+heading
+"Declare your fealty"
+"Whom do you wish to dismiss?"
+QGShowCandidatePicker
+"There are no candidates to select."
+QGShowWarGump
+"Guilds we are at war with"
+"Guilds that we have declared war on"
+"Guilds that have declared war on us"
+"WARFARE STATUS"
+QGShowWarList
+"No current wars."
+QGRecruit
+sponsor
+"Recruitment cancelled."
+"Only players may be sponsored to a guild."
+"You are already a member of this guild."
+"They must be with you when you sponsor them."
+"They must resign from their current guild first."
+"They are already a member of this guild."
+"They are already sponsored to this guild."
+"There are already a dozen candidates sponsored to this guild."
+" has been sponsored for membership."
+"You have been sponsored for membership in "
+QGAcceptCandidate
+"You have been accepted into "
+". Use the guildstone to join."
+" has been accepted as a candidate."
+QGRefuseCandidate
+"Your sponsorship to "
+" has been refused."
+" has been removed from the candidate list."
+"You must resign from your current guild before joining another!"
+"You are now the guildmaster of "
+acceptedIndex
+"You have been sponsored to this guild, but have not yet been accepted."
+"You are not a member of this guild."
+"Whom do you wish to sponsor?"
+"Guild charter: "
+"Guild website: "
+"Declare fealty to whom?"
+"Enter the new guild name."
+"Enter a guild abbreviation of four characters or less. Enter none for no abbreviation."
+"Enter the guild charter."
+"Enter the guild website."
+"Dismiss which member?"
+"Guild warfare is not yet operational."
+"Accept which candidate?"
+"Refuse which candidate?"
+"Enter the guildmaster title."
+"Grant title to whom?"
+rowCount
+choice
+"Select member."
+"You have declared your fealty."
+"Only the current guild leader may dismiss members."
+"You cannot dismiss yourself. Use resign instead."
+"Only the current guild leader may grant titles."
+"Enter the title to grant. Enter none to remove the title."
+"Only the current guild leader may change candidate standing."
+"Select candidate."
+"We are at war with:"
+"Guilds that we have declared war on: "
+"Guilds that have declared war on us:"
+"That abbreviation is not permissible."
+requested
+strlen
+"Guild abbreviations are limited to four characters."
+"That is already your guild abbreviation."
+"lastGuildAbbrChangeSecs"
+"abbreviation"
+request
+"That charter is not permissible."
+"The guild charter has changed."
+"The guild website has changed."
+"That title is not permissible."
+"The guildmaster title has changed."
+"Guild names may not be blank."
+"That guild name is not permissible."
+"That is already your guild name."
+"lastGuildNameChangeSecs"
+"The guild name has changed."
+"Your guild name has been changed."
+"There is already a guild using that name on this shard."
+"Your guild will now display its full name."
+"Your guild abbreviation has been changed."
+"The guild abbreviation has changed."
+"There is already a guild using that abbreviation on this shard."
+deadGuild
+"Another guild has been disbanded."
