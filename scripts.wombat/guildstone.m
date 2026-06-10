@@ -1,3 +1,11 @@
+/*****************************************************************************
+* The demo is missing the real OSI guildstone script.  This is a replacement *
+* created to restore guildstone functionality. Menu options are from the     *
+* Stratics guildstone page.  Prompt and sysMessage strings are from memory   *
+* and to be functional, and are not necessarily accurate.                    *
+*                                                                            *
+* Virtue Guilds, Guild Warfare, and Guildstone teleport are not implemented. *
+******************************************************************************/
 inherits guildbase;
 
 member loc QGMasterLoc = 0x00, 0x00, (0x00 - 0x50);
