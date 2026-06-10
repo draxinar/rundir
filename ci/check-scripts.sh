@@ -5,8 +5,10 @@
 # Three invariants are enforced:
 #   1. Rebuild:    encoding scripts.wombat/*.m with scripts/*.m as
 #                  variant reference reproduces scripts/*.m byte-for-byte.
-#   2. Round-trip: decoding scripts/*.m produces text equal to
-#                  scripts.wombat/*.m.
+#   2. Format:     scripts.wombat/*.m is already in canonical layout, i.e.
+#                  formatting it (wombat -f) is a no-op. Unlike a decode
+#                  round-trip this tolerates comments, which are stripped
+#                  at compile time and the decoder cannot reproduce.
 #   3. SDB:        ref-based encoding never appends to scripts/sdb.txt.
 #
 # Usage: ./ci/check-scripts.sh <wombat-dir>
@@ -51,7 +53,7 @@ fi
 TMPDIR=$(mktemp -d "/tmp/check-scripts.XXXXXX")
 trap 'rm -rf "$TMPDIR"' EXIT
 
-mkdir -p "$TMPDIR/rebuilt" "$TMPDIR/decoded"
+mkdir -p "$TMPDIR/rebuilt" "$TMPDIR/formatted"
 
 # Work on a copy of sdb.txt so the encoder cannot dirty the source tree
 # if scripts.wombat/ references identifiers not yet in the DB.
@@ -94,20 +96,23 @@ if [ "$sdb_before" != "$sdb_after" ]; then
 	sdb_ok=0
 fi
 
-# Round-trip: decode scripts -> tmp, must text-match scripts.wombat.
-# Decode is read-only against the SDB; use the original path.
-"$CONVERT" -d -s "$SDB" "$SCRIPTS" "$TMPDIR/decoded" >/dev/null
+# Format: formatting scripts.wombat -> tmp must reproduce scripts.wombat
+# byte-for-byte, i.e. the checked-in source is already in canonical layout.
+# This tolerates comments (wombat -f keeps them); a decode round-trip would
+# not, since comments have no bytecode and the decoder never emits them.
+# Format is read-only against the SDB; use the original path.
+"$CONVERT" -f -s "$SDB" "$SOURCES" "$TMPDIR/formatted" >/dev/null
 
-roundtrip_total=0
-roundtrip_fail=0
+format_total=0
+format_fail=0
 first_fail=""
-for f in "$TMPDIR/decoded"/*.m; do
+for f in "$TMPDIR/formatted"/*.m; do
 	[ -f "$f" ] || continue
 	base="$(basename "$f")"
-	roundtrip_total=$((roundtrip_total + 1))
+	format_total=$((format_total + 1))
 	if ! diff -q "$f" "$SOURCES/$base" >/dev/null 2>&1; then
-		echo "MISMATCH [round-trip]: $base"
-		roundtrip_fail=$((roundtrip_fail + 1))
+		echo "MISMATCH [format]: $base"
+		format_fail=$((format_fail + 1))
 		if [ -z "$first_fail" ]; then
 			first_fail="$base"
 			diff -u "$SOURCES/$base" "$f" | head -20
@@ -118,11 +123,11 @@ done
 echo
 echo "=== Results ==="
 echo "  rebuild:    $((rebuild_total - rebuild_fail))/$rebuild_total ok"
-echo "  round-trip: $((roundtrip_total - roundtrip_fail))/$roundtrip_total ok"
+echo "  format:     $((format_total - format_fail))/$format_total ok"
 if [ "$sdb_ok" -eq 1 ]; then
 	echo "  sdb:        unchanged"
 else
 	echo "  sdb:        MODIFIED"
 fi
 
-[ "$rebuild_fail" -eq 0 ] && [ "$roundtrip_fail" -eq 0 ] && [ "$sdb_ok" -eq 1 ]
+[ "$rebuild_fail" -eq 0 ] && [ "$format_fail" -eq 0 ] && [ "$sdb_ok" -eq 1 ]
