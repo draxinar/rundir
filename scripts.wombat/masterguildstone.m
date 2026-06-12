@@ -117,7 +117,7 @@ trigger message("requestChangeName") {
 		return(0x01);
 	}
 	Q55K = oprlist(guilds[Q4Y2], 0x02);
-	list Q5CZ = sender, Q5CU, Q55K;
+	list Q5CZ = sender, Q5CU, Q55K, 0x00;
 	removeItem(guilds, Q4Y2);
 	appendToList(guilds, Q5CZ);
 	Q66E(Q5CZ);
